@@ -1,7 +1,6 @@
 import socket
 import sys
 
-# Some of common ports with services
 common_ports = {
     20: 'FTP Data',
     21: 'FTP Control',
