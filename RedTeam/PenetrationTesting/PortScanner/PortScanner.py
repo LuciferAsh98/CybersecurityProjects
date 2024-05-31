@@ -16,7 +16,6 @@ common_ports = {
     465: 'SMTPS',
     993: 'IMAPS',
     995: 'POP3S',
-
 }
 
 def scan_ports(target):

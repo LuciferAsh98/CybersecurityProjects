@@ -13,7 +13,6 @@ This script is provided for educational purposes only. Unauthorized use of keylo
 - `pandas` library
 
 ## Installation
-
 1. **Clone the repository or download the files:**
 
     ```bash

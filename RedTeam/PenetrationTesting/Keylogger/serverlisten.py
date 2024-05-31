@@ -1,6 +1,9 @@
 import socket
 import sys
 
+# _*_ coding: utf-8 _*_
+# Tested on Linux (e.g., Linux kali 6.5.0-kali2-amd64)
+
 common_ports = {
     20: 'FTP Data',
     21: 'FTP Control',
@@ -15,7 +18,6 @@ common_ports = {
     465: 'SMTPS',
     993: 'IMAPS',
     995: 'POP3S',
-
 }
 
 def scan_ports(target):

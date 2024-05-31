@@ -7,6 +7,7 @@ This script is a basic port scanner that scans for open ports on a specified IP 
 To use this script, you need Python installed on your system.
 
 ### Running the Script
+
 1. Open a terminal.
 2. Navigate to the directory containing the script.
 3. Run the following command:
