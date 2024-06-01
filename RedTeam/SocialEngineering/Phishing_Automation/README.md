@@ -23,19 +23,26 @@ This project demonstrates a simple automation script to generate and send phishi
 2. **Python Packages**:
    - Install the necessary Python packages using the following command:
 
+```bash
      pip install -r requirements.txt
+```
 
 3. **Environment Setup**:
    - Create an environment file named `EnvironmentFile.env` and include the following content:
+
+```bash
      SUDO_PASSWORD=your_sudo_password
      SET_PATH=/usr/share/set
+```
 
 
 ## Installation
 
 1. **Clone the repository**:
-   
+
+```bash   
    git clone <-repo-url>
+```
 
 2. **Set permissions**:
 
