@@ -34,13 +34,15 @@ This project demonstrates a simple automation script to generate and send phishi
 ## Installation
 
 1. **Clone the repository**:
+   
    git clone <-repo-url>
 
 2. **Set permissions**:
-Ensure the script is executable: 
+   
    chmod +x phishing_email_automation.py
 
 ##Usage
 
-** Execute the main script **
+**Execute the main script**
+   
    python3 phishing_email_automation.py
