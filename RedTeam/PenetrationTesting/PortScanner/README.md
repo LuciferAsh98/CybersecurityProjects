@@ -11,7 +11,12 @@ To use this script, you need Python installed on your system.
 1. Open a terminal.
 2. Navigate to the directory containing the script.
 3. Run the following command:
+
+```bash
    python3 port_scanner.py <IP to Scan>
+```
 
 4. Example 
+```bash
    python3 port_scanner.py 192.168.9.9
+```
