@@ -38,11 +38,15 @@ This project demonstrates a simple automation script to generate and send phishi
    git clone <-repo-url>
 
 2. **Set permissions**:
-   
+
+```bash   
    chmod +x phishing_email_automation.py
+```
 
 ##Usage
 
 **Execute the main script**
    
+```bash
    python3 phishing_email_automation.py
+```
