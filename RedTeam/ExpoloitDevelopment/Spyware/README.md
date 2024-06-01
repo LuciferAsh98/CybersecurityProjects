@@ -32,28 +32,38 @@ Spyware is a type of malicious software -- or malware -- that is installed on a 
 
 1. **Clone the repository or download the files:**
 
+```bash
     git clone <repository_url>
     cd <repository_folder>
+```
 
 2. **Install the required dependencies:**
 
+```bash
     pip install pynput pandas pyperclip pillow openpyxl
+```
 
 ## USAGE
 
 1. **Create the spyware script:**
 
+```bash
     nano spyware.py
+```
 
 2. **Copy and paste the content of the spyware script into `spyware.py`.**
 
 3. **Make the script executable:**
 
+```bash
     chmod +x spyware.py
+```
 
 4. **Run the spyware script:**
 
+```bash
     sudo python3 spyware.py
+```
 
 ## FILE STORAGE
 
@@ -72,6 +82,7 @@ You can navigate to this directory and list the files using:
 ```bash
 cd /var/www/html/.sysfiles
 ls -a
+```
 
 SECURITY AND ETHICAL CONSIDERATIONS
 Unauthorized Use: Using spyware without permission is illegal and unethical.
