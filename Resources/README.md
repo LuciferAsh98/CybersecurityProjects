@@ -53,7 +53,7 @@ Latest reports and publications on cybersecurity trends and threats.
 
 ## LinkedIn Group
 
-Join our LinkedIn group [Cyber-Sentinel](https://www.linkedin.com/groups/14021568/) to stay updated with the latest resources and discussions in cybersecurity.
+Join our LinkedIn group [Cyber-Sentinel](https://www.linkedin.com/groups/14460184/) to stay updated with the latest resources and discussions in cybersecurity.
 
 ---
 
