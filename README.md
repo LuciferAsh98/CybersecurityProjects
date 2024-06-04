@@ -18,6 +18,9 @@ Welcome to my Cybersecurity Projects repository! As a passionate cybersecurity e
 - **🤖 AutomationScripts**: Scripts designed to automate various security tasks, improving efficiency and effectiveness in cybersecurity operations.
 - **🛡️ CustomTools**: Custom-developed tools tailored for specific security tasks, showcasing innovation and problem-solving skills.
 
+### 🌐 Resources
+- **🛡️ Cybersecurity Resources Repository**: A collection of valuable resources for cybersecurity professionals and enthusiasts.
+
 ## 🚀 Getting Started
 
 To get started with any of these projects, simply navigate to the relevant directory and follow the instructions provided in the respective `README.md` files. Each project includes detailed documentation on how to set up and use the tools or techniques demonstrated.
