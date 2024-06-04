@@ -29,9 +29,9 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
    - [3.2. YouTube Channels](#32-youtube-channels)
    - [3.3. MOOCs (Massive Open Online Courses)](#33-moocs-massive-open-online-courses)
    - [3.4. Webinars and Online Conferences](#34-webinars-and-online-conferences)
-4. [🌐 Useful Websites](#-useful-websites)
-5. [📊 Cybersecurity Reports](#-cybersecurity-reports)
-6. [🔗 LinkedIn Group](#-linkedin-group)
+4. [🌐 Useful Websites](#4-🌐-useful-websites)
+5. [📊 Cybersecurity Reports](#5-📊-cybersecurity-reports)
+6. [🔗 LinkedIn Group](#6-🔗-linkedin-group)
 
 ## 1. 🔧 Tools
 
