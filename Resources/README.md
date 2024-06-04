@@ -290,7 +290,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Defcon Talks**: Watch presentations from cybersecurity experts.
      - [Link to Talks](https://www.youtube.com/user/DEFCONConference)
 
-## 4. 🌐 Useful Websites
+## 4. Useful Websites
 
 Websites that offer valuable information and resources for cybersecurity professionals.
 
