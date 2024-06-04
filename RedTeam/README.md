@@ -8,6 +8,7 @@ Welcome to the Red Team section of my Cybersecurity Projects repository! This se
 Projects related to penetration testing, including tools and techniques for identifying and exploiting vulnerabilities.
 
 - **Network Scanning**: Scripts and tools for scanning networks to identify live hosts and open ports.
+  - **Port Scanner**: A custom script to scan for open ports on a target network.
 - **Web Application Testing**: Tools for testing web applications for vulnerabilities such as SQL injection, XSS, and CSRF.
 - **Wireless Testing**: Tools for testing the security of wireless networks.
 
@@ -17,6 +18,8 @@ Projects focused on developing exploits to demonstrate how vulnerabilities can b
 - **Buffer Overflow**: Examples and scripts demonstrating buffer overflow attacks.
 - **Privilege Escalation**: Techniques and tools for escalating privileges on compromised systems.
 - **Custom Exploits**: Custom-developed exploits for known vulnerabilities.
+  - **Keylogger**: A custom keylogger script to capture keystrokes on a compromised system.
+  - **Spyware**: A custom spyware tool to monitor and capture data from a target system.
 
 ### 🕵️ SocialEngineering
 Projects related to social engineering attacks, illustrating the psychological manipulation of individuals into performing actions or divulging confidential information.
