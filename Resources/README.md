@@ -127,32 +127,158 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
 
 ## 💻 Open-Source Codes
 
-A list of open-source projects and code repositories related to cybersecurity.
+### 🌐 Web Application Security
 
 - **OWASP ZAP**: Open-source web application security scanner.
   - **Website**: [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)
-  - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases.
+  - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases. It includes automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
+  - **Key Features**:
+    - Automated scanners
+    - Passive scanning
+    - Scriptable using a powerful API
+    - Supports traditional and AJAX applications
+
+### 🖥️ Host-Based Intrusion Detection
 
 - **OSSEC**: Open-source host-based intrusion detection system.
   - **Website**: [github.com/ossec/ossec-hids](https://github.com/ossec/ossec-hids)
-  - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.
+  - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response. It is supported by a comprehensive and easily deployable agent framework.
+  - **Key Features**:
+    - Multi-platform support
+    - Log analysis
+    - Integrity checking
+    - Rootkit detection
+    - Active response capabilities
+
+### 🌐 Network Intrusion Prevention
 
 - **Snort**: Open-source network intrusion prevention system.
   - **Website**: [github.com/snort3/snort3](https://github.com/snort3/snort3)
-  - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks.
+  - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks. It is able to perform protocol analysis, content searching/matching, and can be used to detect a variety of attacks and probes, such as buffer overflows, stealth port scans, CGI attacks, SMB probes, OS fingerprinting attempts, and more.
+  - **Key Features**:
+    - Real-time traffic analysis and logging
+    - Protocol analysis
+    - Content searching/matching
+    - Detection of various attacks and probes
+
+### 📊 Network Monitoring
+
+- **Bro (Zeek)**: Open-source network analysis framework.
+  - **Website**: [github.com/zeek/zeek](https://github.com/zeek/zeek)
+  - **Description**: Zeek, formerly known as Bro, is an open-source network analysis framework. It is not just a security monitor; it is a highly flexible platform for network traffic analysis, capable of providing a comprehensive insight into network activity.
+  - **Key Features**:
+    - Deep packet inspection
+    - Protocol identification and analysis
+    - Connection and session tracking
+    - Scripting language for custom analysis
+
+### 🛠️ Configuration and Automation
+
+- **Ansible**: Open-source software provisioning, configuration management, and application-deployment tool.
+  - **Website**: [github.com/ansible/ansible](https://github.com/ansible/ansible)
+  - **Description**: Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It uses a simple, agentless, and powerful automation framework.
+  - **Key Features**:
+    - Agentless architecture
+    - Simple YAML syntax
+    - Extensible through modules and plugins
+    - Wide range of integrations with cloud providers, network platforms, and more
+
+### 🐳 Container Security
+
+- **Clair**: Open-source project for the static analysis of vulnerabilities in application containers.
+  - **Website**: [github.com/quay/clair](https://github.com/quay/clair)
+  - **Description**: Clair is an open-source project for the static analysis of vulnerabilities in application containers. It monitors and updates vulnerability databases and provides API endpoints to query vulnerabilities of container images.
+  - **Key Features**:
+    - Static analysis of container images
+    - Continuous vulnerability updates
+    - API for querying vulnerabilities
+
+### 🔍 Security Information and Event Management (SIEM)
+
+- **OSSIM (Open Source Security Information Management)**: Open-source SIEM system.
+  - **Website**: [github.com/AlienVault-OTX/OSSIM](https://github.com/AlienVault-OTX/OSSIM)
+  - **Description**: OSSIM is an open-source SIEM system that integrates a selection of tools designed to aid network administrators in computer security, intrusion detection, and prevention.
+  - **Key Features**:
+    - Comprehensive security management
+    - Real-time event correlation
+    - Customizable dashboards and reporting
+
+### 🛡️ Threat Intelligence
+
+- **MISP (Malware Information Sharing Platform)**: Open-source threat intelligence platform.
+  - **Website**: [github.com/MISP/MISP](https://github.com/MISP/MISP)
+  - **Description**: MISP is an open-source threat intelligence platform designed to improve the sharing of structured threat information across organizations. It helps detect and respond to threats efficiently.
+  - **Key Features**:
+    - Sharing of threat information
+    - API for integration with other tools
+    - Advanced analytics and correlation capabilities
+
 
 ## 🎥 Educational Videos
 
-Links to educational videos and YouTube channels that provide cybersecurity tutorials and insights.
+### 🏫 Online Courses
+
+- **Coursera**: Offers a variety of cybersecurity courses and specializations from top universities and companies.
+  - **Introduction to Cyber Security Specialization**: Learn the basic concepts of cybersecurity from the University of Maryland.
+    - [Link to Course](https://www.coursera.org/specializations/intro-cyber-security)
+  - **IBM Cybersecurity Analyst Professional Certificate**: Gain the skills to become a cybersecurity analyst.
+    - [Link to Course](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
+  
+- **Udemy**: Provides a wide range of courses on cybersecurity, ethical hacking, and network security.
+  - **The Complete Cyber Security Course**: A comprehensive guide to cybersecurity.
+    - [Link to Course](https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/)
+  - **Learn Ethical Hacking From Scratch**: A beginner's guide to ethical hacking.
+    - [Link to Course](https://www.udemy.com/course/learn-ethical-hacking-from-scratch/)
+  
+- **edX**: Offers cybersecurity courses and programs from leading institutions.
+  - **Cybersecurity Fundamentals**: Learn the fundamental concepts of cybersecurity.
+    - [Link to Course](https://www.edx.org/course/cybersecurity-fundamentals)
+  - **Cybersecurity MicroMasters Program**: A series of graduate-level courses to advance your career.
+    - [Link to Program](https://www.edx.org/micromasters/ritx-cybersecurity)
+
+### 📺 YouTube Channels
 
 - **The Cyber Mentor**: Cybersecurity tutorials and ethical hacking content.
-  - **YouTube Channel**: [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-
+  - **Channel Link**: [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+  - **Popular Video**: "Learn Ethical Hacking in 12 Hours"
+    - [Watch Now](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
+  
 - **Hak5**: Cybersecurity and hacking gadgets tutorials.
-  - **YouTube Channel**: [Hak5](https://www.youtube.com/user/Hak5Darren)
-
+  - **Channel Link**: [Hak5](https://www.youtube.com/user/Hak5Darren)
+  - **Popular Video**: "WiFi Pineapple Nano Setup and Configuration"
+    - [Watch Now](https://www.youtube.com/watch?v=wm7ol43Veyo)
+  
 - **LiveOverflow**: Exploit development and CTF challenges.
-  - **YouTube Channel**: [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+  - **Channel Link**: [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+  - **Popular Video**: "Buffer Overflow 101"
+    - [Watch Now](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+
+### 📚 MOOCs (Massive Open Online Courses)
+
+- **Khan Academy**: Offers a fundamental understanding of computer networks and cybersecurity.
+  - **Introduction to Cryptography**: Learn the basics of cryptography and its importance in cybersecurity.
+    - [Link to Course](https://www.khanacademy.org/computing/computer-science/cryptography)
+  
+- **FutureLearn**: Provides a range of cybersecurity courses from leading academic institutions and organizations.
+  - **Cyber Security Foundations**: A beginner-friendly course to understand cybersecurity basics.
+    - [Link to Course](https://www.futurelearn.com/courses/cyber-security-foundations)
+  - **Introduction to Cyber Security for Business**: Learn how to protect your business from cyber threats.
+    - [Link to Course](https://www.futurelearn.com/courses/introduction-to-cyber-security-for-business)
+
+### 🖥️ Webinars and Online Conferences
+
+- **Black Hat Webinars**: Leading information security event providing the latest research and trends.
+  - **Black Hat Webinars**: Explore various cybersecurity topics from industry experts.
+    - [Link to Webinars](https://www.blackhat.com/html/webinars.html)
+  
+- **SANS Webcasts**: Free educational webcasts focusing on various cybersecurity topics.
+  - **SANS Webcasts**: Stay updated with the latest trends and techniques in cybersecurity.
+    - [Link to Webcasts](https://www.sans.org/webcasts/)
+  
+- **Defcon Talks**: Presentations from the annual Defcon conference, covering a wide range of cybersecurity topics.
+  - **Defcon Talks**: Watch presentations from cybersecurity experts.
+    - [Link to Talks](https://www.youtube.com/user/DEFCONConference)
+
 
 ## 🌐 Useful Websites
 
