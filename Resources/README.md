@@ -16,7 +16,19 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
    - [Password Cracking](#password-cracking)
    - [Miscellaneous Tools](#miscellaneous-tools)
 2. [💻 Open-Source Codes](#-open-source-codes)
+   - [Web Application Security](#-web-application-security)
+   - [Host-Based Intrusion Detection](#-host-based-intrusion-detection)
+   - [Network Intrusion Prevention](#-network-intrusion-prevention)
+   - [Network Monitoring](#-network-monitoring)
+   - [Configuration and Automation](#-configuration-and-automation)
+   - [Container Security](#-container-security)
+   - [Security Information and Event Management (SIEM)](#-security-information-and-event-management-siem)
+   - [Threat Intelligence](#-threat-intelligence)
 3. [🎥 Educational Videos](#-educational-videos)
+   - [Online Courses](#-online-courses)
+   - [YouTube Channels](#-youtube-channels)
+   - [MOOCs (Massive Open Online Courses)](#-moocs-massive-open-online-courses)
+   - [Webinars and Online Conferences](#-webinars-and-online-conferences)
 4. [🌐 Useful Websites](#-useful-websites)
 5. [📊 Cybersecurity Reports](#-cybersecurity-reports)
 6. [🔗 LinkedIn Group](#-linkedin-group)
@@ -284,27 +296,116 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
 
 Websites that offer valuable information and resources for cybersecurity professionals.
 
-- **Krebs on Security**: Cybersecurity news and analysis.
-  - **Website**: [krebsonsecurity.com](https://krebsonsecurity.com/)
+- **🔐 Krebs on Security**: Cybersecurity news and analysis by Brian Krebs.
+  - [Krebs on Security](https://krebsonsecurity.com/)
+  
+- **📰 ThreatPost**: Cybersecurity news and threat reports.
+  - [ThreatPost](https://threatpost.com/)
+  
+- **🔎 Have I Been Pwned**: Check if your email or phone has been compromised in a data breach.
+  - [Have I Been Pwned](https://haveibeenpwned.com/)
+  
+- **🌍 OWASP**: The Open Web Application Security Project provides free and open cybersecurity resources.
+  - [OWASP](https://owasp.org/)
+  
+- **📑 NIST**: National Institute of Standards and Technology provides cybersecurity standards and guidelines.
+  - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+  
+- **🛡️ US-CERT**: United States Computer Emergency Readiness Team provides cybersecurity information and alerts.
+  - [US-CERT](https://www.us-cert.gov/)
+  
+- **📰 Dark Reading**: A comprehensive online community for cybersecurity news and analysis.
+  - [Dark Reading](https://www.darkreading.com/)
+  
+- **🔍 SecurityWeek**: Cybersecurity news and information for global enterprises.
+  - [SecurityWeek](https://www.securityweek.com/)
+  
+- **📊 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
+  - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
+  
+- **📉 IBM X-Force Exchange**: Threat intelligence sharing platform.
+  - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
+  
+- **🔧 Shodan**: Search engine for Internet-connected devices.
+  - [Shodan](https://www.shodan.io/)
+  
+- **💻 Exploit Database**: Archive of exploits and vulnerable software.
+  - [Exploit Database](https://www.exploit-db.com/)
+  
+- **🖥️ Rapid7**: Provider of security data and analytics solutions.
+  - [Rapid7](https://www.rapid7.com/)
+  
+- **🔐 CVE Details**: A comprehensive database of Common Vulnerabilities and Exposures.
+  - [CVE Details](https://www.cvedetails.com/)
+  
+- **🛡️ CERT-EU**: Computer Emergency Response Team for the EU institutions.
+  - [CERT-EU](https://cert.europa.eu/)
+  
+- **📘 SANS Reading Room**: Collection of whitepapers and research articles on cybersecurity.
+  - [SANS Reading Room](https://www.sans.org/reading-room/)
+  
+- **🕵️‍♂️ VirusTotal**: Online tool for analyzing suspicious files and URLs.
+  - [VirusTotal](https://www.virustotal.com/)
+  
+- **🌐 CyberSeek**: Interactive tools and data to help close the cybersecurity skills gap.
+  - [CyberSeek](https://www.cyberseek.org/)
+  
+- **📈 ENISA**: European Union Agency for Cybersecurity's threat landscape reports.
+  - [ENISA](https://www.enisa.europa.eu/)
+  
+- **🔧 Packet Storm Security**: A comprehensive resource for security news, tools, and exploits.
+  - [Packet Storm Security](https://packetstormsecurity.com/)
 
-- **ThreatPost**: Cybersecurity news and threat reports.
-  - **Website**: [threatpost.com](https://threatpost.com/)
-
-- **Have I Been Pwned**: Check if your email or phone has been compromised in a data breach.
-  - **Website**: [haveibeenpwned.com](https://haveibeenpwned.com/)
 
 ## 📊 Cybersecurity Reports
 
 Latest reports and publications on cybersecurity trends and threats.
 
-- **Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
-  - **Website**: [verizon.com/business/resources/reports/dbir/](https://www.verizon.com/business/resources/reports/dbir/)
+- **📈 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
+  - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
 
-- **IBM X-Force Threat Intelligence Index**: Insights into global cybersecurity threats.
-  - **Website**: [ibm.com/security/data-breach/threat-intelligence](https://www.ibm.com/security/data-breach/threat-intelligence)
+- **📊 IBM X-Force Threat Intelligence Index**: Insights into global cybersecurity threats.
+  - [IBM X-Force Threat Intelligence Index](https://www.ibm.com/security/data-breach/threat-intelligence)
 
-- **ENISA Threat Landscape Report**: European Union Agency for Cybersecurity's threat landscape reports.
-  - **Website**: [enisa.europa.eu/publications](https://www.enisa.europa.eu/publications)
+- **🌐 ENISA Threat Landscape Report**: European Union Agency for Cybersecurity's threat landscape reports.
+  - [ENISA Threat Landscape Report](https://www.enisa.europa.eu/publications)
+
+- **🛡️ Symantec Internet Security Threat Report**: Comprehensive overview of the threat landscape.
+  - [Symantec ISTR](https://www.broadcom.com/company/newsroom/press-releases)
+
+- **📊 Cisco Annual Cybersecurity Report**: Insights on cybersecurity trends and the state of the security landscape.
+  - [Cisco Annual Cybersecurity Report](https://www.cisco.com/c/en/us/products/security/security-reports.html)
+
+- **🔐 McAfee Labs Threats Report**: Analysis of cyber threats and trends.
+  - [McAfee Labs Threats Report](https://www.mcafee.com/enterprise/en-us/threat-center/threat-reports.html)
+
+- **🌍 FireEye M-Trends Report**: Annual report on cyber attack trends based on frontline investigations.
+  - [FireEye M-Trends Report](https://www.fireeye.com/current-threats/annual-threat-report/mtrends.html)
+
+- **📑 Check Point Security Report**: In-depth analysis of the cybersecurity landscape and major threat vectors.
+  - [Check Point Security Report](https://www.checkpoint.com/cyber-security-report/)
+
+- **📈 Sophos Threat Report**: Insights into cybersecurity threats and trends from SophosLabs.
+  - [Sophos Threat Report](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophos-2021-threat-report.pdf)
+
+- **📊 Microsoft Security Intelligence Report**: Analysis of the current state of cybersecurity based on Microsoft's data.
+  - [Microsoft Security Intelligence Report](https://www.microsoft.com/securityinsights)
+
+- **📉 Fortinet Threat Landscape Report**: Analysis of threats and trends observed by Fortinet.
+  - [Fortinet Threat Landscape Report](https://www.fortinet.com/resources/report/threat-landscape-report)
+
+- **🔍 CrowdStrike Global Threat Report**: Insights into adversary tradecraft and tactics from CrowdStrike's observations.
+  - [CrowdStrike Global Threat Report](https://www.crowdstrike.com/global-threat-report/)
+
+- **🔐 Trend Micro Security Roundup**: Comprehensive overview of the major security threats observed by Trend Micro.
+  - [Trend Micro Security Roundup](https://www.trendmicro.com/vinfo/us/security/research-and-analysis/threat-reports/roundup)
+
+- **📊 Kaspersky Security Bulletin**: Annual review of the most significant cybersecurity trends and threats.
+  - [Kaspersky Security Bulletin](https://securelist.com/summary/)
+
+- **🛡️ Palo Alto Networks Unit 42 Threat Report**: Insights into the threat landscape based on research and threat intelligence.
+  - [Unit 42 Threat Report](https://unit42.paloaltonetworks.com/research/)
+
 
 ## 🔗 LinkedIn Group
 
