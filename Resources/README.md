@@ -4,7 +4,7 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
 
 ## 📚 Table of Contents
 
-1. [🔧 Tools](#-tools)
+1. [🔧 Tools](#1-🔧-tools)
    - [1.1. Network Scanning and Enumeration](#11-network-scanning-and-enumeration)
    - [1.2. Vulnerability Scanning](#12-vulnerability-scanning)
    - [1.3. Penetration Testing Frameworks](#13-penetration-testing-frameworks)
@@ -15,7 +15,7 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
    - [1.8. Forensic Tools](#18-forensic-tools)
    - [1.9. Password Cracking](#19-password-cracking)
    - [1.10. Miscellaneous Tools](#110-miscellaneous-tools)
-2. [💻 Open-Source Codes](#-open-source-codes)
+2. [💻 Open-Source Codes](#2-💻-open-source-codes)
    - [2.1. Web Application Security](#21-web-application-security)
    - [2.2. Host-Based Intrusion Detection](#22-host-based-intrusion-detection)
    - [2.3. Network Intrusion Prevention](#23-network-intrusion-prevention)
@@ -24,14 +24,14 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
    - [2.6. Container Security](#26-container-security)
    - [2.7. Security Information and Event Management (SIEM)](#27-security-information-and-event-management-siem)
    - [2.8. Threat Intelligence](#28-threat-intelligence)
-3. [🎥 Educational Videos](#-educational-videos)
+3. [🎥 Educational Videos](#3-🎥-educational-videos)
    - [3.1. Online Courses](#31-online-courses)
    - [3.2. YouTube Channels](#32-youtube-channels)
    - [3.3. MOOCs (Massive Open Online Courses)](#33-moocs-massive-open-online-courses)
    - [3.4. Webinars and Online Conferences](#34-webinars-and-online-conferences)
-4. [🌐 Useful Websites](#4-useful-websites)
-5. [📊 Cybersecurity Reports](#5-cybersecurity-reports)
-6. [🔗 LinkedIn Group](#6-linkedin-group)
+4. [🌐 Useful Websites](#4-🌐-useful-websites)
+5. [📊 Cybersecurity Reports](#5-📊-cybersecurity-reports)
+6. [🔗 LinkedIn Group](#6-🔗-linkedin-group)
 
 ## 1. 🔧 Tools
 
