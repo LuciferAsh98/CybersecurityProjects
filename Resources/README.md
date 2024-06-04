@@ -58,7 +58,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [tenable.com/products/nessus](https://www.tenable.com/products/nessus)
    - **Description**: Nessus is a proprietary vulnerability scanner developed by Tenable Network Security. It is used to scan for vulnerabilities across a variety of devices and applications.
 
-### 3. Penetration Testing Frameworks
+### 1.3 Penetration Testing Frameworks
 
 1. **Metasploit**: ⚔️ Penetration testing framework.
    - **Website**: [metasploit.com](https://www.metasploit.com/)
@@ -68,7 +68,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [kali.org](https://www.kali.org/)
    - **Description**: Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes with numerous pre-installed tools for various information security tasks.
 
-### 4. Web Application Security
+### 1.4 Web Application Security
 
 1. **Burp Suite**: 🕵️‍♂️ Web vulnerability scanner and security testing tool.
    - **Website**: [portswigger.net/burp](https://portswigger.net/burp)
@@ -78,7 +78,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [owasp.org/projects/zap](https://owasp.org/projects/zap/)
    - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases.
 
-### 5. Network Traffic Analysis
+### 1.5 Network Traffic Analysis
 
 1. **Wireshark**: 🐋 Network protocol analyzer.
    - **Website**: [wireshark.org](https://www.wireshark.org/)
@@ -88,7 +88,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [tcpdump.org](https://www.tcpdump.org/)
    - **Description**: tcpdump is a powerful command-line packet analyzer. It allows the user to display TCP, UDP, and other packets being transmitted or received over a network to which the computer is attached.
 
-### 6. Intrusion Detection and Prevention
+### 1.6 Intrusion Detection and Prevention
 
 1. **Snort**: 🛡️ Open-source network intrusion prevention system.
    - **Website**: [snort.org](https://www.snort.org/)
@@ -98,7 +98,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [ossec.net](https://www.ossec.net/)
    - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.
 
-### 7. Endpoint Security
+### 1.7 Endpoint Security
 
 1. **ClamAV**: 🦠 Open-source antivirus engine.
    - **Website**: [clamav.net](https://www.clamav.net/)
@@ -108,7 +108,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [eset.com](https://www.eset.com/)
    - **Description**: ESET NOD32 is a comprehensive endpoint security solution providing antivirus, antimalware, and anti-spyware protection.
 
-### 8. Forensic Tools
+### 1.8 Forensic Tools
 
 1. **Autopsy**: 🕵️‍♀️ Digital forensics platform and graphical interface to The Sleuth Kit.
    - **Website**: [sleuthkit.org/autopsy](https://www.sleuthkit.org/autopsy/)
@@ -118,7 +118,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [accessdata.com/products-services/ftk-imager](https://accessdata.com/products-services/ftk-imager)
    - **Description**: FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as FTK is warranted.
 
-### 9. Password Cracking
+### 1.9 Password Cracking
 
 1. **John the Ripper**: 🔑 Open-source password security auditing and password recovery tool.
    - **Website**: [openwall.com/john](https://www.openwall.com/john/)
@@ -128,7 +128,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [hashcat.net](https://hashcat.net/hashcat/)
    - **Description**: Hashcat is the world’s fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly optimized hashing algorithms.
 
-### 10. Miscellaneous Tools
+### 1.10 Miscellaneous Tools
 
 1. **Aircrack-ng**: 📡 Network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker, and analysis tool for 802.11 wireless LANs.
    - **Website**: [aircrack-ng.org](https://www.aircrack-ng.org/)
@@ -139,9 +139,9 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Description**: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
 
 
-## 💻 Open-Source Codes
+2 ## 💻 Open-Source Codes
 
-### 🌐 Web Application Security
+### 2.1 Web Application Security  🌐
 
 1. **OWASP ZAP**: 🌐 Open-source web application security scanner.
    - **Website**: [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)
@@ -152,7 +152,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Scriptable using a powerful API
      - Supports traditional and AJAX applications
 
-### 🖥️ Host-Based Intrusion Detection
+### 2.2 Host-Based Intrusion Detection 🖥️
 
 1. **OSSEC**: 🖥️ Open-source host-based intrusion detection system.
    - **Website**: [github.com/ossec/ossec-hids](https://github.com/ossec/ossec-hids)
