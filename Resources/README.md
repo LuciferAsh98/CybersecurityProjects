@@ -34,11 +34,11 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
 6. [🔗 LinkedIn Group](#-linkedin-group)
 
 
-## 🔧 Tools
+1. ## 🔧 Tools
 
 A comprehensive collection of essential tools for various cybersecurity tasks, categorized by their functionalities.
 
-### 1. Network Scanning and Enumeration
+### 1.1 Network Scanning and Enumeration
 
 1. **Nmap**: 🛰️ Network scanning and vulnerability detection tool.
    - **Website**: [nmap.org](https://nmap.org/)
@@ -48,7 +48,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [angryip.org](https://angryip.org/)
    - **Description**: Angry IP Scanner is an open-source and cross-platform network scanner designed to be fast and easy to use. It scans IP addresses and ports and can be used for various network management and monitoring purposes.
 
-### 2. Vulnerability Scanning
+### 1.2 Vulnerability Scanning
 
 1. **OpenVAS**: 🔍 Open-source vulnerability scanner.
    - **Website**: [openvas.org](https://www.openvas.org/)
