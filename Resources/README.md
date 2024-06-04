@@ -136,7 +136,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
 2. **Hydra**: 🔓 Parallelized login cracker which supports numerous protocols to attack.
    - **Website**: [github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
    - **Description**: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
-   
+
 
 ## 💻 Open-Source Codes
 
@@ -231,181 +231,182 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
 
 ### 🏫 Online Courses
 
-- **Coursera**: Offers a variety of cybersecurity courses and specializations from top universities and companies.
-  - **Introduction to Cyber Security Specialization**: Learn the basic concepts of cybersecurity from the University of Maryland.
-    - [Link to Course](https://www.coursera.org/specializations/intro-cyber-security)
-  - **IBM Cybersecurity Analyst Professional Certificate**: Gain the skills to become a cybersecurity analyst.
-    - [Link to Course](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
-  
-- **Udemy**: Provides a wide range of courses on cybersecurity, ethical hacking, and network security.
-  - **The Complete Cyber Security Course**: A comprehensive guide to cybersecurity.
-    - [Link to Course](https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/)
-  - **Learn Ethical Hacking From Scratch**: A beginner's guide to ethical hacking.
-    - [Link to Course](https://www.udemy.com/course/learn-ethical-hacking-from-scratch/)
-  
-- **edX**: Offers cybersecurity courses and programs from leading institutions.
-  - **Cybersecurity Fundamentals**: Learn the fundamental concepts of cybersecurity.
-    - [Link to Course](https://www.edx.org/course/cybersecurity-fundamentals)
-  - **Cybersecurity MicroMasters Program**: A series of graduate-level courses to advance your career.
-    - [Link to Program](https://www.edx.org/micromasters/ritx-cybersecurity)
+1. **Coursera**: Offers a variety of cybersecurity courses and specializations from top universities and companies.
+   - **Introduction to Cyber Security Specialization**: Learn the basic concepts of cybersecurity from the University of Maryland.
+     - [Link to Course](https://www.coursera.org/specializations/intro-cyber-security)
+   - **IBM Cybersecurity Analyst Professional Certificate**: Gain the skills to become a cybersecurity analyst.
+     - [Link to Course](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
+
+2. **Udemy**: Provides a wide range of courses on cybersecurity, ethical hacking, and network security.
+   - **The Complete Cyber Security Course**: A comprehensive guide to cybersecurity.
+     - [Link to Course](https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/)
+   - **Learn Ethical Hacking From Scratch**: A beginner's guide to ethical hacking.
+     - [Link to Course](https://www.udemy.com/course/learn-ethical-hacking-from-scratch/)
+
+3. **edX**: Offers cybersecurity courses and programs from leading institutions.
+   - **Cybersecurity Fundamentals**: Learn the fundamental concepts of cybersecurity.
+     - [Link to Course](https://www.edx.org/course/cybersecurity-fundamentals)
+   - **Cybersecurity MicroMasters Program**: A series of graduate-level courses to advance your career.
+     - [Link to Program](https://www.edx.org/micromasters/ritx-cybersecurity)
 
 ### 📺 YouTube Channels
 
-- **The Cyber Mentor**: Cybersecurity tutorials and ethical hacking content.
-  - **Channel Link**: [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-  - **Popular Video**: "Learn Ethical Hacking in 12 Hours"
-    - [Watch Now](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
-  
-- **Hak5**: Cybersecurity and hacking gadgets tutorials.
-  - **Channel Link**: [Hak5](https://www.youtube.com/user/Hak5Darren)
-  - **Popular Video**: "WiFi Pineapple Nano Setup and Configuration"
-    - [Watch Now](https://www.youtube.com/watch?v=wm7ol43Veyo)
-  
-- **LiveOverflow**: Exploit development and CTF challenges.
-  - **Channel Link**: [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
-  - **Popular Video**: "Buffer Overflow 101"
-    - [Watch Now](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+1. **The Cyber Mentor**: Cybersecurity tutorials and ethical hacking content.
+   - **Channel Link**: [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+   - **Popular Video**: "Learn Ethical Hacking in 12 Hours"
+     - [Watch Now](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
+
+2. **Hak5**: Cybersecurity and hacking gadgets tutorials.
+   - **Channel Link**: [Hak5](https://www.youtube.com/user/Hak5Darren)
+   - **Popular Video**: "WiFi Pineapple Nano Setup and Configuration"
+     - [Watch Now](https://www.youtube.com/watch?v=wm7ol43Veyo)
+
+3. **LiveOverflow**: Exploit development and CTF challenges.
+   - **Channel Link**: [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+   - **Popular Video**: "Buffer Overflow 101"
+     - [Watch Now](https://www.youtube.com/watch?v=1S0aBV-Waeo)
 
 ### 📚 MOOCs (Massive Open Online Courses)
 
-- **Khan Academy**: Offers a fundamental understanding of computer networks and cybersecurity.
-  - **Introduction to Cryptography**: Learn the basics of cryptography and its importance in cybersecurity.
-    - [Link to Course](https://www.khanacademy.org/computing/computer-science/cryptography)
-  
-- **FutureLearn**: Provides a range of cybersecurity courses from leading academic institutions and organizations.
-  - **Cyber Security Foundations**: A beginner-friendly course to understand cybersecurity basics.
-    - [Link to Course](https://www.futurelearn.com/courses/cyber-security-foundations)
-  - **Introduction to Cyber Security for Business**: Learn how to protect your business from cyber threats.
-    - [Link to Course](https://www.futurelearn.com/courses/introduction-to-cyber-security-for-business)
+1. **Khan Academy**: Offers a fundamental understanding of computer networks and cybersecurity.
+   - **Introduction to Cryptography**: Learn the basics of cryptography and its importance in cybersecurity.
+     - [Link to Course](https://www.khanacademy.org/computing/computer-science/cryptography)
+
+2. **FutureLearn**: Provides a range of cybersecurity courses from leading academic institutions and organizations.
+   - **Cyber Security Foundations**: A beginner-friendly course to understand cybersecurity basics.
+     - [Link to Course](https://www.futurelearn.com/courses/cyber-security-foundations)
+   - **Introduction to Cyber Security for Business**: Learn how to protect your business from cyber threats.
+     - [Link to Course](https://www.futurelearn.com/courses/introduction-to-cyber-security-for-business)
 
 ### 🖥️ Webinars and Online Conferences
 
-- **Black Hat Webinars**: Leading information security event providing the latest research and trends.
-  - **Black Hat Webinars**: Explore various cybersecurity topics from industry experts.
-    - [Link to Webinars](https://www.blackhat.com/html/webinars.html)
-  
-- **SANS Webcasts**: Free educational webcasts focusing on various cybersecurity topics.
-  - **SANS Webcasts**: Stay updated with the latest trends and techniques in cybersecurity.
-    - [Link to Webcasts](https://www.sans.org/webcasts/)
-  
-- **Defcon Talks**: Presentations from the annual Defcon conference, covering a wide range of cybersecurity topics.
-  - **Defcon Talks**: Watch presentations from cybersecurity experts.
-    - [Link to Talks](https://www.youtube.com/user/DEFCONConference)
+1. **Black Hat Webinars**: Leading information security event providing the latest research and trends.
+   - **Black Hat Webinars**: Explore various cybersecurity topics from industry experts.
+     - [Link to Webinars](https://www.blackhat.com/html/webinars.html)
+
+2. **SANS Webcasts**: Free educational webcasts focusing on various cybersecurity topics.
+   - **SANS Webcasts**: Stay updated with the latest trends and techniques in cybersecurity.
+     - [Link to Webcasts](https://www.sans.org/webcasts/)
+
+3. **Defcon Talks**: Presentations from the annual Defcon conference, covering a wide range of cybersecurity topics.
+   - **Defcon Talks**: Watch presentations from cybersecurity experts.
+     - [Link to Talks](https://www.youtube.com/user/DEFCONConference)
+
 
 
 ## 🌐 Useful Websites
 
 Websites that offer valuable information and resources for cybersecurity professionals.
 
-- **🔐 Krebs on Security**: Cybersecurity news and analysis by Brian Krebs.
-  - [Krebs on Security](https://krebsonsecurity.com/)
+1. **🔐 Krebs on Security**: Cybersecurity news and analysis by Brian Krebs.
+   - [Krebs on Security](https://krebsonsecurity.com/)
   
-- **📰 ThreatPost**: Cybersecurity news and threat reports.
-  - [ThreatPost](https://threatpost.com/)
+2. **📰 ThreatPost**: Cybersecurity news and threat reports.
+   - [ThreatPost](https://threatpost.com/)
   
-- **🔎 Have I Been Pwned**: Check if your email or phone has been compromised in a data breach.
-  - [Have I Been Pwned](https://haveibeenpwned.com/)
+3. **🔎 Have I Been Pwned**: Check if your email or phone has been compromised in a data breach.
+   - [Have I Been Pwned](https://haveibeenpwned.com/)
   
-- **🌍 OWASP**: The Open Web Application Security Project provides free and open cybersecurity resources.
-  - [OWASP](https://owasp.org/)
+4. **🌍 OWASP**: The Open Web Application Security Project provides free and open cybersecurity resources.
+   - [OWASP](https://owasp.org/)
   
-- **📑 NIST**: National Institute of Standards and Technology provides cybersecurity standards and guidelines.
-  - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+5. **📑 NIST**: National Institute of Standards and Technology provides cybersecurity standards and guidelines.
+   - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
   
-- **🛡️ US-CERT**: United States Computer Emergency Readiness Team provides cybersecurity information and alerts.
-  - [US-CERT](https://www.us-cert.gov/)
+6. **🛡️ US-CERT**: United States Computer Emergency Readiness Team provides cybersecurity information and alerts.
+   - [US-CERT](https://www.us-cert.gov/)
   
-- **📰 Dark Reading**: A comprehensive online community for cybersecurity news and analysis.
-  - [Dark Reading](https://www.darkreading.com/)
+7. **📰 Dark Reading**: A comprehensive online community for cybersecurity news and analysis.
+   - [Dark Reading](https://www.darkreading.com/)
   
-- **🔍 SecurityWeek**: Cybersecurity news and information for global enterprises.
-  - [SecurityWeek](https://www.securityweek.com/)
+8. **🔍 SecurityWeek**: Cybersecurity news and information for global enterprises.
+   - [SecurityWeek](https://www.securityweek.com/)
   
-- **📊 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
-  - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
+9. **📊 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
+   - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
   
-- **📉 IBM X-Force Exchange**: Threat intelligence sharing platform.
-  - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
+10. **📉 IBM X-Force Exchange**: Threat intelligence sharing platform.
+    - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
   
-- **🔧 Shodan**: Search engine for Internet-connected devices.
-  - [Shodan](https://www.shodan.io/)
+11. **🔧 Shodan**: Search engine for Internet-connected devices.
+    - [Shodan](https://www.shodan.io/)
   
-- **💻 Exploit Database**: Archive of exploits and vulnerable software.
-  - [Exploit Database](https://www.exploit-db.com/)
+12. **💻 Exploit Database**: Archive of exploits and vulnerable software.
+    - [Exploit Database](https://www.exploit-db.com/)
   
-- **🖥️ Rapid7**: Provider of security data and analytics solutions.
-  - [Rapid7](https://www.rapid7.com/)
+13. **🖥️ Rapid7**: Provider of security data and analytics solutions.
+    - [Rapid7](https://www.rapid7.com/)
   
-- **🔐 CVE Details**: A comprehensive database of Common Vulnerabilities and Exposures.
-  - [CVE Details](https://www.cvedetails.com/)
+14. **🔐 CVE Details**: A comprehensive database of Common Vulnerabilities and Exposures.
+    - [CVE Details](https://www.cvedetails.com/)
   
-- **🛡️ CERT-EU**: Computer Emergency Response Team for the EU institutions.
-  - [CERT-EU](https://cert.europa.eu/)
+15. **🛡️ CERT-EU**: Computer Emergency Response Team for the EU institutions.
+    - [CERT-EU](https://cert.europa.eu/)
   
-- **📘 SANS Reading Room**: Collection of whitepapers and research articles on cybersecurity.
-  - [SANS Reading Room](https://www.sans.org/reading-room/)
+16. **📘 SANS Reading Room**: Collection of whitepapers and research articles on cybersecurity.
+    - [SANS Reading Room](https://www.sans.org/reading-room/)
   
-- **🕵️‍♂️ VirusTotal**: Online tool for analyzing suspicious files and URLs.
-  - [VirusTotal](https://www.virustotal.com/)
+17. **🕵️‍♂️ VirusTotal**: Online tool for analyzing suspicious files and URLs.
+    - [VirusTotal](https://www.virustotal.com/)
   
-- **🌐 CyberSeek**: Interactive tools and data to help close the cybersecurity skills gap.
-  - [CyberSeek](https://www.cyberseek.org/)
+18. **🌐 CyberSeek**: Interactive tools and data to help close the cybersecurity skills gap.
+    - [CyberSeek](https://www.cyberseek.org/)
   
-- **📈 ENISA**: European Union Agency for Cybersecurity's threat landscape reports.
-  - [ENISA](https://www.enisa.europa.eu/)
+19. **📈 ENISA**: European Union Agency for Cybersecurity's threat landscape reports.
+    - [ENISA](https://www.enisa.europa.eu/)
   
-- **🔧 Packet Storm Security**: A comprehensive resource for security news, tools, and exploits.
-  - [Packet Storm Security](https://packetstormsecurity.com/)
-
+20. **🔧 Packet Storm Security**: A comprehensive resource for security news, tools, and exploits.
+    - [Packet Storm Security](https://packetstormsecurity.com/)
 
 ## 📊 Cybersecurity Reports
 
 Latest reports and publications on cybersecurity trends and threats.
 
-- **📈 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
-  - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
+1. **📈 Verizon Data Breach Investigations Report**: Annual report on data breaches and cyber threats.
+   - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
 
-- **📊 IBM X-Force Threat Intelligence Index**: Insights into global cybersecurity threats.
-  - [IBM X-Force Threat Intelligence Index](https://www.ibm.com/security/data-breach/threat-intelligence)
+2. **📊 IBM X-Force Threat Intelligence Index**: Insights into global cybersecurity threats.
+   - [IBM X-Force Threat Intelligence Index](https://www.ibm.com/security/data-breach/threat-intelligence)
 
-- **🌐 ENISA Threat Landscape Report**: European Union Agency for Cybersecurity's threat landscape reports.
-  - [ENISA Threat Landscape Report](https://www.enisa.europa.eu/publications)
+3. **🌐 ENISA Threat Landscape Report**: European Union Agency for Cybersecurity's threat landscape reports.
+   - [ENISA Threat Landscape Report](https://www.enisa.europa.eu/publications)
 
-- **🛡️ Symantec Internet Security Threat Report**: Comprehensive overview of the threat landscape.
-  - [Symantec ISTR](https://www.broadcom.com/company/newsroom/press-releases)
+4. **🛡️ Symantec Internet Security Threat Report**: Comprehensive overview of the threat landscape.
+   - [Symantec ISTR](https://www.broadcom.com/company/newsroom/press-releases)
 
-- **📊 Cisco Annual Cybersecurity Report**: Insights on cybersecurity trends and the state of the security landscape.
-  - [Cisco Annual Cybersecurity Report](https://www.cisco.com/c/en/us/products/security/security-reports.html)
+5. **📊 Cisco Annual Cybersecurity Report**: Insights on cybersecurity trends and the state of the security landscape.
+   - [Cisco Annual Cybersecurity Report](https://www.cisco.com/c/en/us/products/security/security-reports.html)
 
-- **🔐 McAfee Labs Threats Report**: Analysis of cyber threats and trends.
-  - [McAfee Labs Threats Report](https://www.mcafee.com/enterprise/en-us/threat-center/threat-reports.html)
+6. **🔐 McAfee Labs Threats Report**: Analysis of cyber threats and trends.
+   - [McAfee Labs Threats Report](https://www.mcafee.com/enterprise/en-us/threat-center/threat-reports.html)
 
-- **🌍 FireEye M-Trends Report**: Annual report on cyber attack trends based on frontline investigations.
-  - [FireEye M-Trends Report](https://www.fireeye.com/current-threats/annual-threat-report/mtrends.html)
+7. **🌍 FireEye M-Trends Report**: Annual report on cyber attack trends based on frontline investigations.
+   - [FireEye M-Trends Report](https://www.fireeye.com/current-threats/annual-threat-report/mtrends.html)
 
-- **📑 Check Point Security Report**: In-depth analysis of the cybersecurity landscape and major threat vectors.
-  - [Check Point Security Report](https://www.checkpoint.com/cyber-security-report/)
+8. **📑 Check Point Security Report**: In-depth analysis of the cybersecurity landscape and major threat vectors.
+   - [Check Point Security Report](https://www.checkpoint.com/cyber-security-report/)
 
-- **📈 Sophos Threat Report**: Insights into cybersecurity threats and trends from SophosLabs.
-  - [Sophos Threat Report](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophos-2021-threat-report.pdf)
+9. **📈 Sophos Threat Report**: Insights into cybersecurity threats and trends from SophosLabs.
+   - [Sophos Threat Report](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophos-2021-threat-report.pdf)
 
-- **📊 Microsoft Security Intelligence Report**: Analysis of the current state of cybersecurity based on Microsoft's data.
-  - [Microsoft Security Intelligence Report](https://www.microsoft.com/securityinsights)
+10. **📊 Microsoft Security Intelligence Report**: Analysis of the current state of cybersecurity based on Microsoft's data.
+    - [Microsoft Security Intelligence Report](https://www.microsoft.com/securityinsights)
 
-- **📉 Fortinet Threat Landscape Report**: Analysis of threats and trends observed by Fortinet.
-  - [Fortinet Threat Landscape Report](https://www.fortinet.com/resources/report/threat-landscape-report)
+11. **📉 Fortinet Threat Landscape Report**: Analysis of threats and trends observed by Fortinet.
+    - [Fortinet Threat Landscape Report](https://www.fortinet.com/resources/report/threat-landscape-report)
 
-- **🔍 CrowdStrike Global Threat Report**: Insights into adversary tradecraft and tactics from CrowdStrike's observations.
-  - [CrowdStrike Global Threat Report](https://www.crowdstrike.com/global-threat-report/)
+12. **🔍 CrowdStrike Global Threat Report**: Insights into adversary tradecraft and tactics from CrowdStrike's observations.
+    - [CrowdStrike Global Threat Report](https://www.crowdstrike.com/global-threat-report/)
 
-- **🔐 Trend Micro Security Roundup**: Comprehensive overview of the major security threats observed by Trend Micro.
-  - [Trend Micro Security Roundup](https://www.trendmicro.com/vinfo/us/security/research-and-analysis/threat-reports/roundup)
+13. **🔐 Trend Micro Security Roundup**: Comprehensive overview of the major security threats observed by Trend Micro.
+    - [Trend Micro Security Roundup](https://www.trendmicro.com/vinfo/us/security/research-and-analysis/threat-reports/roundup)
 
-- **📊 Kaspersky Security Bulletin**: Annual review of the most significant cybersecurity trends and threats.
-  - [Kaspersky Security Bulletin](https://securelist.com/summary/)
+14. **📊 Kaspersky Security Bulletin**: Annual review of the most significant cybersecurity trends and threats.
+    - [Kaspersky Security Bulletin](https://securelist.com/summary/)
 
-- **🛡️ Palo Alto Networks Unit 42 Threat Report**: Insights into the threat landscape based on research and threat intelligence.
-  - [Unit 42 Threat Report](https://unit42.paloaltonetworks.com/research/)
+15. **🛡️ Palo Alto Networks Unit 42 Threat Report**: Insights into the threat landscape based on research and threat intelligence.
+    - [Unit 42 Threat Report](https://unit42.paloaltonetworks.com/research/)
+
 
 
 ## 🔗 LinkedIn Group
