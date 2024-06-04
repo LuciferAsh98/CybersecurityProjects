@@ -33,12 +33,11 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
 5. [📊 Cybersecurity Reports](#-cybersecurity-reports)
 6. [🔗 LinkedIn Group](#-linkedin-group)
 
-
-1. ## 🔧 Tools
+## 1. 🔧 Tools
 
 A comprehensive collection of essential tools for various cybersecurity tasks, categorized by their functionalities.
 
-### 1.1 Network Scanning and Enumeration
+### 1.1. Network Scanning and Enumeration
 
 1. **Nmap**: 🛰️ Network scanning and vulnerability detection tool.
    - **Website**: [nmap.org](https://nmap.org/)
@@ -48,7 +47,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [angryip.org](https://angryip.org/)
    - **Description**: Angry IP Scanner is an open-source and cross-platform network scanner designed to be fast and easy to use. It scans IP addresses and ports and can be used for various network management and monitoring purposes.
 
-### 1.2 Vulnerability Scanning
+### 1.2. Vulnerability Scanning
 
 1. **OpenVAS**: 🔍 Open-source vulnerability scanner.
    - **Website**: [openvas.org](https://www.openvas.org/)
@@ -58,7 +57,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [tenable.com/products/nessus](https://www.tenable.com/products/nessus)
    - **Description**: Nessus is a proprietary vulnerability scanner developed by Tenable Network Security. It is used to scan for vulnerabilities across a variety of devices and applications.
 
-### 1.3 Penetration Testing Frameworks
+### 1.3. Penetration Testing Frameworks
 
 1. **Metasploit**: ⚔️ Penetration testing framework.
    - **Website**: [metasploit.com](https://www.metasploit.com/)
@@ -68,7 +67,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [kali.org](https://www.kali.org/)
    - **Description**: Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes with numerous pre-installed tools for various information security tasks.
 
-### 1.4 Web Application Security
+### 1.4. Web Application Security
 
 1. **Burp Suite**: 🕵️‍♂️ Web vulnerability scanner and security testing tool.
    - **Website**: [portswigger.net/burp](https://portswigger.net/burp)
@@ -78,7 +77,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [owasp.org/projects/zap](https://owasp.org/projects/zap/)
    - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases.
 
-### 1.5 Network Traffic Analysis
+### 1.5. Network Traffic Analysis
 
 1. **Wireshark**: 🐋 Network protocol analyzer.
    - **Website**: [wireshark.org](https://www.wireshark.org/)
@@ -88,7 +87,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [tcpdump.org](https://www.tcpdump.org/)
    - **Description**: tcpdump is a powerful command-line packet analyzer. It allows the user to display TCP, UDP, and other packets being transmitted or received over a network to which the computer is attached.
 
-### 1.6 Intrusion Detection and Prevention
+### 1.6. Intrusion Detection and Prevention
 
 1. **Snort**: 🛡️ Open-source network intrusion prevention system.
    - **Website**: [snort.org](https://www.snort.org/)
@@ -98,7 +97,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [ossec.net](https://www.ossec.net/)
    - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.
 
-### 1.7 Endpoint Security
+### 1.7. Endpoint Security
 
 1. **ClamAV**: 🦠 Open-source antivirus engine.
    - **Website**: [clamav.net](https://www.clamav.net/)
@@ -108,7 +107,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [eset.com](https://www.eset.com/)
    - **Description**: ESET NOD32 is a comprehensive endpoint security solution providing antivirus, antimalware, and anti-spyware protection.
 
-### 1.8 Forensic Tools
+### 1.8. Forensic Tools
 
 1. **Autopsy**: 🕵️‍♀️ Digital forensics platform and graphical interface to The Sleuth Kit.
    - **Website**: [sleuthkit.org/autopsy](https://www.sleuthkit.org/autopsy/)
@@ -118,7 +117,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [accessdata.com/products-services/ftk-imager](https://accessdata.com/products-services/ftk-imager)
    - **Description**: FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as FTK is warranted.
 
-### 1.9 Password Cracking
+### 1.9. Password Cracking
 
 1. **John the Ripper**: 🔑 Open-source password security auditing and password recovery tool.
    - **Website**: [openwall.com/john](https://www.openwall.com/john/)
@@ -128,7 +127,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [hashcat.net](https://hashcat.net/hashcat/)
    - **Description**: Hashcat is the world’s fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly optimized hashing algorithms.
 
-### 1.10 Miscellaneous Tools
+### 1.10. Miscellaneous Tools
 
 1. **Aircrack-ng**: 📡 Network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker, and analysis tool for 802.11 wireless LANs.
    - **Website**: [aircrack-ng.org](https://www.aircrack-ng.org/)
@@ -138,10 +137,9 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Website**: [github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
    - **Description**: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
 
+## 2. 💻 Open-Source Codes
 
-2 ## 💻 Open-Source Codes
-
-### 2.1 Web Application Security  🌐
+### 2.1. Web Application Security
 
 1. **OWASP ZAP**: 🌐 Open-source web application security scanner.
    - **Website**: [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)
@@ -152,7 +150,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Scriptable using a powerful API
      - Supports traditional and AJAX applications
 
-### 2.2 Host-Based Intrusion Detection 🖥️
+### 2.2. Host-Based Intrusion Detection
 
 1. **OSSEC**: 🖥️ Open-source host-based intrusion detection system.
    - **Website**: [github.com/ossec/ossec-hids](https://github.com/ossec/ossec-hids)
@@ -164,7 +162,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Rootkit detection
      - Active response capabilities
 
-### 🌐 Network Intrusion Prevention
+### 2.3. Network Intrusion Prevention
 
 1. **Snort**: 🌐 Open-source network intrusion prevention system.
    - **Website**: [github.com/snort3/snort3](https://github.com/snort3/snort3)
@@ -175,7 +173,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Content searching/matching
      - Detection of various attacks and probes
 
-### 📊 Network Monitoring
+### 2.4. Network Monitoring
 
 1. **Bro (Zeek)**: 📊 Open-source network analysis framework.
    - **Website**: [github.com/zeek/zeek](https://github.com/zeek/zeek)
@@ -186,7 +184,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Connection and session tracking
      - Scripting language for custom analysis
 
-### 🛠️ Configuration and Automation
+### 2.5. Configuration and Automation
 
 1. **Ansible**: 🛠️ Open-source software provisioning, configuration management, and application-deployment tool.
    - **Website**: [github.com/ansible/ansible](https://github.com/ansible/ansible)
@@ -197,7 +195,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Extensible through modules and plugins
      - Wide range of integrations with cloud providers, network platforms, and more
 
-### 🐳 Container Security
+### 2.6. Container Security
 
 1. **Clair**: 🐳 Open-source project for the static analysis of vulnerabilities in application containers.
    - **Website**: [github.com/quay/clair](https://github.com/quay/clair)
@@ -207,7 +205,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Continuous vulnerability updates
      - API for querying vulnerabilities
 
-### 🔍 Security Information and Event Management (SIEM)
+### 2.7. Security Information and Event Management (SIEM)
 
 1. **OSSIM (Open Source Security Information Management)**: 🔍 Open-source SIEM system.
    - **Website**: [github.com/AlienVault-OTX/OSSIM](https://github.com/AlienVault-OTX/OSSIM)
@@ -217,7 +215,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - Real-time event correlation
      - Customizable dashboards and reporting
 
-### 🛡️ Threat Intelligence
+### 2.8. Threat Intelligence
 
 1. **MISP (Malware Information Sharing Platform)**: 🛡️ Open-source threat intelligence platform.
    - **Website**: [github.com/MISP/MISP](https://github.com/MISP/MISP)
@@ -227,10 +225,9 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
      - API for integration with other tools
      - Advanced analytics and correlation capabilities
 
+## 3. 🎥 Educational Videos
 
-## 🎥 Educational Videos
-
-### 🏫 Online Courses
+### 3.1. Online Courses
 
 1. **Coursera**: Offers a variety of cybersecurity courses and specializations from top universities and companies.
    - **Introduction to Cyber Security Specialization**: Learn the basic concepts of cybersecurity from the University of Maryland.
@@ -250,7 +247,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Cybersecurity MicroMasters Program**: A series of graduate-level courses to advance your career.
      - [Link to Program](https://www.edx.org/micromasters/ritx-cybersecurity)
 
-### 📺 YouTube Channels
+### 3.2. YouTube Channels
 
 1. **The Cyber Mentor**: Cybersecurity tutorials and ethical hacking content.
    - **Channel Link**: [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
@@ -267,7 +264,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Popular Video**: "Buffer Overflow 101"
      - [Watch Now](https://www.youtube.com/watch?v=1S0aBV-Waeo)
 
-### 📚 MOOCs (Massive Open Online Courses)
+### 3.3. MOOCs (Massive Open Online Courses)
 
 1. **Khan Academy**: Offers a fundamental understanding of computer networks and cybersecurity.
    - **Introduction to Cryptography**: Learn the basics of cryptography and its importance in cybersecurity.
@@ -279,7 +276,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Introduction to Cyber Security for Business**: Learn how to protect your business from cyber threats.
      - [Link to Course](https://www.futurelearn.com/courses/introduction-to-cyber-security-for-business)
 
-### 🖥️ Webinars and Online Conferences
+### 3.4. Webinars and Online Conferences
 
 1. **Black Hat Webinars**: Leading information security event providing the latest research and trends.
    - **Black Hat Webinars**: Explore various cybersecurity topics from industry experts.
@@ -293,9 +290,7 @@ A comprehensive collection of essential tools for various cybersecurity tasks, c
    - **Defcon Talks**: Watch presentations from cybersecurity experts.
      - [Link to Talks](https://www.youtube.com/user/DEFCONConference)
 
-
-
-## 🌐 Useful Websites
+## 4. 🌐 Useful Websites
 
 Websites that offer valuable information and resources for cybersecurity professionals.
 
@@ -359,7 +354,7 @@ Websites that offer valuable information and resources for cybersecurity profess
 20. **🔧 Packet Storm Security**: A comprehensive resource for security news, tools, and exploits.
     - [Packet Storm Security](https://packetstormsecurity.com/)
 
-## 📊 Cybersecurity Reports
+## 5. 📊 Cybersecurity Reports
 
 Latest reports and publications on cybersecurity trends and threats.
 
@@ -408,9 +403,7 @@ Latest reports and publications on cybersecurity trends and threats.
 15. **🛡️ Palo Alto Networks Unit 42 Threat Report**: Insights into the threat landscape based on research and threat intelligence.
     - [Unit 42 Threat Report](https://unit42.paloaltonetworks.com/research/)
 
-
-
-## 🔗 LinkedIn Group
+## 6. 🔗 LinkedIn Group
 
 Join our LinkedIn group [Cyber-Sentinel](https://www.linkedin.com/groups/14460184/) to stay updated with the latest resources and discussions in cybersecurity.
 
