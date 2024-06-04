@@ -37,193 +37,194 @@ Welcome to the Cybersecurity Resources Repository! This repository is dedicated 
 
 A comprehensive collection of essential tools for various cybersecurity tasks, categorized by their functionalities.
 
-### Network Scanning and Enumeration
+### 1. Network Scanning and Enumeration
 
-- **Nmap**: Network scanning and vulnerability detection tool.
-  - **Website**: [nmap.org](https://nmap.org/)
-  - **Description**: Nmap ("Network Mapper") is a free and open-source utility for network discovery and security auditing. It is useful for network inventory, managing service upgrade schedules, and monitoring host or service uptime.
+1. **Nmap**: 🛰️ Network scanning and vulnerability detection tool.
+   - **Website**: [nmap.org](https://nmap.org/)
+   - **Description**: Nmap ("Network Mapper") is a free and open-source utility for network discovery and security auditing. It is useful for network inventory, managing service upgrade schedules, and monitoring host or service uptime.
 
-- **Angry IP Scanner**: Fast and friendly network scanner.
-  - **Website**: [angryip.org](https://angryip.org/)
-  - **Description**: Angry IP Scanner is an open-source and cross-platform network scanner designed to be fast and easy to use. It scans IP addresses and ports and can be used for various network management and monitoring purposes.
+2. **Angry IP Scanner**: 🌐 Fast and friendly network scanner.
+   - **Website**: [angryip.org](https://angryip.org/)
+   - **Description**: Angry IP Scanner is an open-source and cross-platform network scanner designed to be fast and easy to use. It scans IP addresses and ports and can be used for various network management and monitoring purposes.
 
-### Vulnerability Scanning
+### 2. Vulnerability Scanning
 
-- **OpenVAS**: Open-source vulnerability scanner.
-  - **Website**: [openvas.org](https://www.openvas.org/)
-  - **Description**: OpenVAS is a full-featured vulnerability scanner. It supports large-scale scans and integrates well with other tools.
+1. **OpenVAS**: 🔍 Open-source vulnerability scanner.
+   - **Website**: [openvas.org](https://www.openvas.org/)
+   - **Description**: OpenVAS is a full-featured vulnerability scanner. It supports large-scale scans and integrates well with other tools.
 
-- **Nessus**: Comprehensive vulnerability scanning tool.
-  - **Website**: [tenable.com/products/nessus](https://www.tenable.com/products/nessus)
-  - **Description**: Nessus is a proprietary vulnerability scanner developed by Tenable Network Security. It is used to scan for vulnerabilities across a variety of devices and applications.
+2. **Nessus**: 🛡️ Comprehensive vulnerability scanning tool.
+   - **Website**: [tenable.com/products/nessus](https://www.tenable.com/products/nessus)
+   - **Description**: Nessus is a proprietary vulnerability scanner developed by Tenable Network Security. It is used to scan for vulnerabilities across a variety of devices and applications.
 
-### Penetration Testing Frameworks
+### 3. Penetration Testing Frameworks
 
-- **Metasploit**: Penetration testing framework.
-  - **Website**: [metasploit.com](https://www.metasploit.com/)
-  - **Description**: Metasploit is an open-source framework that helps security teams verify vulnerabilities, manage security assessments, and improve security awareness.
+1. **Metasploit**: ⚔️ Penetration testing framework.
+   - **Website**: [metasploit.com](https://www.metasploit.com/)
+   - **Description**: Metasploit is an open-source framework that helps security teams verify vulnerabilities, manage security assessments, and improve security awareness.
 
-- **Kali Linux**: Linux distribution with pre-installed penetration testing tools.
-  - **Website**: [kali.org](https://www.kali.org/)
-  - **Description**: Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes with numerous pre-installed tools for various information security tasks.
+2. **Kali Linux**: 🐉 Linux distribution with pre-installed penetration testing tools.
+   - **Website**: [kali.org](https://www.kali.org/)
+   - **Description**: Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes with numerous pre-installed tools for various information security tasks.
 
-### Web Application Security
+### 4. Web Application Security
 
-- **Burp Suite**: Web vulnerability scanner and security testing tool.
-  - **Website**: [portswigger.net/burp](https://portswigger.net/burp)
-  - **Description**: Burp Suite is a leading range of cybersecurity tools used by information security professionals to identify vulnerabilities and verify attack vectors.
+1. **Burp Suite**: 🕵️‍♂️ Web vulnerability scanner and security testing tool.
+   - **Website**: [portswigger.net/burp](https://portswigger.net/burp)
+   - **Description**: Burp Suite is a leading range of cybersecurity tools used by information security professionals to identify vulnerabilities and verify attack vectors.
 
-- **OWASP ZAP**: Open-source web application security scanner.
-  - **Website**: [owasp.org/projects/zap](https://owasp.org/projects/zap/)
-  - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases.
+2. **OWASP ZAP**: ⚡ Open-source web application security scanner.
+   - **Website**: [owasp.org/projects/zap](https://owasp.org/projects/zap/)
+   - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases.
 
-### Network Traffic Analysis
+### 5. Network Traffic Analysis
 
-- **Wireshark**: Network protocol analyzer.
-  - **Website**: [wireshark.org](https://www.wireshark.org/)
-  - **Description**: Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto standard across many industries and educational institutions.
+1. **Wireshark**: 🐋 Network protocol analyzer.
+   - **Website**: [wireshark.org](https://www.wireshark.org/)
+   - **Description**: Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto standard across many industries and educational institutions.
 
-- **tcpdump**: Network packet analyzer.
-  - **Website**: [tcpdump.org](https://www.tcpdump.org/)
-  - **Description**: tcpdump is a powerful command-line packet analyzer. It allows the user to display TCP, UDP, and other packets being transmitted or received over a network to which the computer is attached.
+2. **tcpdump**: 🧰 Network packet analyzer.
+   - **Website**: [tcpdump.org](https://www.tcpdump.org/)
+   - **Description**: tcpdump is a powerful command-line packet analyzer. It allows the user to display TCP, UDP, and other packets being transmitted or received over a network to which the computer is attached.
 
-### Intrusion Detection and Prevention
+### 6. Intrusion Detection and Prevention
 
-- **Snort**: Open-source network intrusion prevention system.
-  - **Website**: [snort.org](https://www.snort.org/)
-  - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks.
+1. **Snort**: 🛡️ Open-source network intrusion prevention system.
+   - **Website**: [snort.org](https://www.snort.org/)
+   - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks.
 
-- **OSSEC**: Open-source host-based intrusion detection system.
-  - **Website**: [ossec.net](https://www.ossec.net/)
-  - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.
+2. **OSSEC**: 🔐 Open-source host-based intrusion detection system.
+   - **Website**: [ossec.net](https://www.ossec.net/)
+   - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.
 
-### Endpoint Security
+### 7. Endpoint Security
 
-- **ClamAV**: Open-source antivirus engine.
-  - **Website**: [clamav.net](https://www.clamav.net/)
-  - **Description**: ClamAV is an open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.
+1. **ClamAV**: 🦠 Open-source antivirus engine.
+   - **Website**: [clamav.net](https://www.clamav.net/)
+   - **Description**: ClamAV is an open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.
 
-- **ESET NOD32**: Comprehensive endpoint security solution.
-  - **Website**: [eset.com](https://www.eset.com/)
-  - **Description**: ESET NOD32 is a comprehensive endpoint security solution providing antivirus, antimalware, and anti-spyware protection.
+2. **ESET NOD32**: 🛡️ Comprehensive endpoint security solution.
+   - **Website**: [eset.com](https://www.eset.com/)
+   - **Description**: ESET NOD32 is a comprehensive endpoint security solution providing antivirus, antimalware, and anti-spyware protection.
 
-### Forensic Tools
+### 8. Forensic Tools
 
-- **Autopsy**: Digital forensics platform and graphical interface to The Sleuth Kit.
-  - **Website**: [sleuthkit.org/autopsy](https://www.sleuthkit.org/autopsy/)
-  - **Description**: Autopsy is an open-source digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools. It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer.
+1. **Autopsy**: 🕵️‍♀️ Digital forensics platform and graphical interface to The Sleuth Kit.
+   - **Website**: [sleuthkit.org/autopsy](https://www.sleuthkit.org/autopsy/)
+   - **Description**: Autopsy is an open-source digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools. It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer.
 
-- **FTK Imager**: Forensic imaging tool.
-  - **Website**: [accessdata.com/products-services/ftk-imager](https://accessdata.com/products-services/ftk-imager)
-  - **Description**: FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as FTK is warranted.
+2. **FTK Imager**: 🔍 Forensic imaging tool.
+   - **Website**: [accessdata.com/products-services/ftk-imager](https://accessdata.com/products-services/ftk-imager)
+   - **Description**: FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as FTK is warranted.
 
-### Password Cracking
+### 9. Password Cracking
 
-- **John the Ripper**: Open-source password security auditing and password recovery tool.
-  - **Website**: [openwall.com/john](https://www.openwall.com/john/)
-  - **Description**: John the Ripper is a fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS.
+1. **John the Ripper**: 🔑 Open-source password security auditing and password recovery tool.
+   - **Website**: [openwall.com/john](https://www.openwall.com/john/)
+   - **Description**: John the Ripper is a fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS.
 
-- **Hashcat**: Advanced password recovery utility.
-  - **Website**: [hashcat.net](https://hashcat.net/hashcat/)
-  - **Description**: Hashcat is the world’s fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly optimized hashing algorithms.
+2. **Hashcat**: 💻 Advanced password recovery utility.
+   - **Website**: [hashcat.net](https://hashcat.net/hashcat/)
+   - **Description**: Hashcat is the world’s fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly optimized hashing algorithms.
 
-### Miscellaneous Tools
+### 10. Miscellaneous Tools
 
-- **Aircrack-ng**: Network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker, and analysis tool for 802.11 wireless LANs.
-  - **Website**: [aircrack-ng.org](https://www.aircrack-ng.org/)
-  - **Description**: Aircrack-ng is a complete suite of tools to assess WiFi network security. It focuses on different areas of WiFi security: monitoring, attacking, testing, and cracking.
+1. **Aircrack-ng**: 📡 Network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker, and analysis tool for 802.11 wireless LANs.
+   - **Website**: [aircrack-ng.org](https://www.aircrack-ng.org/)
+   - **Description**: Aircrack-ng is a complete suite of tools to assess WiFi network security. It focuses on different areas of WiFi security: monitoring, attacking, testing, and cracking.
 
-- **Hydra**: Parallelized login cracker which supports numerous protocols to attack.
-  - **Website**: [github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
-  - **Description**: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
+2. **Hydra**: 🔓 Parallelized login cracker which supports numerous protocols to attack.
+   - **Website**: [github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
+   - **Description**: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
+   
 
 ## 💻 Open-Source Codes
 
 ### 🌐 Web Application Security
 
-- **OWASP ZAP**: Open-source web application security scanner.
-  - **Website**: [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)
-  - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases. It includes automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
-  - **Key Features**:
-    - Automated scanners
-    - Passive scanning
-    - Scriptable using a powerful API
-    - Supports traditional and AJAX applications
+1. **OWASP ZAP**: 🌐 Open-source web application security scanner.
+   - **Website**: [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)
+   - **Description**: OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It helps find security vulnerabilities in web applications during the development and testing phases. It includes automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
+   - **Key Features**:
+     - Automated scanners
+     - Passive scanning
+     - Scriptable using a powerful API
+     - Supports traditional and AJAX applications
 
 ### 🖥️ Host-Based Intrusion Detection
 
-- **OSSEC**: Open-source host-based intrusion detection system.
-  - **Website**: [github.com/ossec/ossec-hids](https://github.com/ossec/ossec-hids)
-  - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response. It is supported by a comprehensive and easily deployable agent framework.
-  - **Key Features**:
-    - Multi-platform support
-    - Log analysis
-    - Integrity checking
-    - Rootkit detection
-    - Active response capabilities
+1. **OSSEC**: 🖥️ Open-source host-based intrusion detection system.
+   - **Website**: [github.com/ossec/ossec-hids](https://github.com/ossec/ossec-hids)
+   - **Description**: OSSEC is a scalable, multi-platform, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response. It is supported by a comprehensive and easily deployable agent framework.
+   - **Key Features**:
+     - Multi-platform support
+     - Log analysis
+     - Integrity checking
+     - Rootkit detection
+     - Active response capabilities
 
 ### 🌐 Network Intrusion Prevention
 
-- **Snort**: Open-source network intrusion prevention system.
-  - **Website**: [github.com/snort3/snort3](https://github.com/snort3/snort3)
-  - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks. It is able to perform protocol analysis, content searching/matching, and can be used to detect a variety of attacks and probes, such as buffer overflows, stealth port scans, CGI attacks, SMB probes, OS fingerprinting attempts, and more.
-  - **Key Features**:
-    - Real-time traffic analysis and logging
-    - Protocol analysis
-    - Content searching/matching
-    - Detection of various attacks and probes
+1. **Snort**: 🌐 Open-source network intrusion prevention system.
+   - **Website**: [github.com/snort3/snort3](https://github.com/snort3/snort3)
+   - **Description**: Snort is an open-source network intrusion prevention system capable of performing real-time traffic analysis and packet logging on IP networks. It is able to perform protocol analysis, content searching/matching, and can be used to detect a variety of attacks and probes, such as buffer overflows, stealth port scans, CGI attacks, SMB probes, OS fingerprinting attempts, and more.
+   - **Key Features**:
+     - Real-time traffic analysis and logging
+     - Protocol analysis
+     - Content searching/matching
+     - Detection of various attacks and probes
 
 ### 📊 Network Monitoring
 
-- **Bro (Zeek)**: Open-source network analysis framework.
-  - **Website**: [github.com/zeek/zeek](https://github.com/zeek/zeek)
-  - **Description**: Zeek, formerly known as Bro, is an open-source network analysis framework. It is not just a security monitor; it is a highly flexible platform for network traffic analysis, capable of providing a comprehensive insight into network activity.
-  - **Key Features**:
-    - Deep packet inspection
-    - Protocol identification and analysis
-    - Connection and session tracking
-    - Scripting language for custom analysis
+1. **Bro (Zeek)**: 📊 Open-source network analysis framework.
+   - **Website**: [github.com/zeek/zeek](https://github.com/zeek/zeek)
+   - **Description**: Zeek, formerly known as Bro, is an open-source network analysis framework. It is not just a security monitor; it is a highly flexible platform for network traffic analysis, capable of providing a comprehensive insight into network activity.
+   - **Key Features**:
+     - Deep packet inspection
+     - Protocol identification and analysis
+     - Connection and session tracking
+     - Scripting language for custom analysis
 
 ### 🛠️ Configuration and Automation
 
-- **Ansible**: Open-source software provisioning, configuration management, and application-deployment tool.
-  - **Website**: [github.com/ansible/ansible](https://github.com/ansible/ansible)
-  - **Description**: Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It uses a simple, agentless, and powerful automation framework.
-  - **Key Features**:
-    - Agentless architecture
-    - Simple YAML syntax
-    - Extensible through modules and plugins
-    - Wide range of integrations with cloud providers, network platforms, and more
+1. **Ansible**: 🛠️ Open-source software provisioning, configuration management, and application-deployment tool.
+   - **Website**: [github.com/ansible/ansible](https://github.com/ansible/ansible)
+   - **Description**: Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It uses a simple, agentless, and powerful automation framework.
+   - **Key Features**:
+     - Agentless architecture
+     - Simple YAML syntax
+     - Extensible through modules and plugins
+     - Wide range of integrations with cloud providers, network platforms, and more
 
 ### 🐳 Container Security
 
-- **Clair**: Open-source project for the static analysis of vulnerabilities in application containers.
-  - **Website**: [github.com/quay/clair](https://github.com/quay/clair)
-  - **Description**: Clair is an open-source project for the static analysis of vulnerabilities in application containers. It monitors and updates vulnerability databases and provides API endpoints to query vulnerabilities of container images.
-  - **Key Features**:
-    - Static analysis of container images
-    - Continuous vulnerability updates
-    - API for querying vulnerabilities
+1. **Clair**: 🐳 Open-source project for the static analysis of vulnerabilities in application containers.
+   - **Website**: [github.com/quay/clair](https://github.com/quay/clair)
+   - **Description**: Clair is an open-source project for the static analysis of vulnerabilities in application containers. It monitors and updates vulnerability databases and provides API endpoints to query vulnerabilities of container images.
+   - **Key Features**:
+     - Static analysis of container images
+     - Continuous vulnerability updates
+     - API for querying vulnerabilities
 
 ### 🔍 Security Information and Event Management (SIEM)
 
-- **OSSIM (Open Source Security Information Management)**: Open-source SIEM system.
-  - **Website**: [github.com/AlienVault-OTX/OSSIM](https://github.com/AlienVault-OTX/OSSIM)
-  - **Description**: OSSIM is an open-source SIEM system that integrates a selection of tools designed to aid network administrators in computer security, intrusion detection, and prevention.
-  - **Key Features**:
-    - Comprehensive security management
-    - Real-time event correlation
-    - Customizable dashboards and reporting
+1. **OSSIM (Open Source Security Information Management)**: 🔍 Open-source SIEM system.
+   - **Website**: [github.com/AlienVault-OTX/OSSIM](https://github.com/AlienVault-OTX/OSSIM)
+   - **Description**: OSSIM is an open-source SIEM system that integrates a selection of tools designed to aid network administrators in computer security, intrusion detection, and prevention.
+   - **Key Features**:
+     - Comprehensive security management
+     - Real-time event correlation
+     - Customizable dashboards and reporting
 
 ### 🛡️ Threat Intelligence
 
-- **MISP (Malware Information Sharing Platform)**: Open-source threat intelligence platform.
-  - **Website**: [github.com/MISP/MISP](https://github.com/MISP/MISP)
-  - **Description**: MISP is an open-source threat intelligence platform designed to improve the sharing of structured threat information across organizations. It helps detect and respond to threats efficiently.
-  - **Key Features**:
-    - Sharing of threat information
-    - API for integration with other tools
-    - Advanced analytics and correlation capabilities
+1. **MISP (Malware Information Sharing Platform)**: 🛡️ Open-source threat intelligence platform.
+   - **Website**: [github.com/MISP/MISP](https://github.com/MISP/MISP)
+   - **Description**: MISP is an open-source threat intelligence platform designed to improve the sharing of structured threat information across organizations. It helps detect and respond to threats efficiently.
+   - **Key Features**:
+     - Sharing of threat information
+     - API for integration with other tools
+     - Advanced analytics and correlation capabilities
 
 
 ## 🎥 Educational Videos
