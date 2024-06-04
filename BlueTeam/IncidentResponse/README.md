@@ -34,7 +34,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Incident Response Playbook
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/incident-response-playbook.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd incident-response-playbook`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -46,7 +46,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Incident Analysis Tools
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/incident-analysis-tools.git`
+   - Clone the repository:
    - Navigate to the directory: `cd incident-analysis-tools`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -58,7 +58,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Incident Response Automation
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/incident-response-automation.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd incident-response-automation`
    - Follow the setup instructions in the `README.md` file within the directory.
 

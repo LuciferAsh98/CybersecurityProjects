@@ -41,7 +41,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### SIEM Integration Guides
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/siem-integration-guides.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd siem-integration-guides`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -53,7 +53,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### SIEM Dashboard Creation
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/siem-dashboard-creation.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd siem-dashboard-creation`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -65,7 +65,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Alert Configuration
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/alert-configuration.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd alert-configuration`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -77,7 +77,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Monitoring Best Practices
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/monitoring-best-practices.git`
+   - Clone the repository: 
    - Navigate to the directory: `cd monitoring-best-practices`
    - Follow the setup instructions in the `README.md` file within the directory.
 

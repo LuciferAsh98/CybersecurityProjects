@@ -35,7 +35,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Threat Hunting Playbook
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/threat-hunting-playbook.git`
+   - Clone the repository:
    - Navigate to the directory: `cd threat-hunting-playbook`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -47,7 +47,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Threat Hunting Dashboard
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/threat-hunting-dashboard.git`
+   - Clone the repository:
    - Navigate to the directory: `cd threat-hunting-dashboard`
    - Follow the setup instructions in the `README.md` file within the directory.
 
@@ -60,7 +60,7 @@ To get started with any of these projects, navigate to the relevant sub-director
 ### Threat Intelligence Integration
 
 1. **Setup Instructions**
-   - Clone the repository: `git clone https://github.com/your-repo/threat-intelligence-integration.git`
+   - Clone the repository:
    - Navigate to the directory: `cd threat-intelligence-integration`
    - Follow the setup instructions in the `README.md` file within the directory.
 
