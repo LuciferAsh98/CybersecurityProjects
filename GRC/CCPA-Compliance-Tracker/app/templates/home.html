@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}CCPA Compliance Tracker{% endblock %}
+
+{% block content %}
+<h1>Welcome to CCPA Compliance Tracker</h1>
+
+{% if current_user.is_authenticated %}
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.data_type.label }}<br>
+            {{ form.data_type(size=32, placeholder="e.g., Name, Email, SSN") }}
+            <span class="description">Type of data being collected (e.g., Name, Email, SSN)</span>
+        </p>
+        <p>
+            {{ form.data_usage.label }}<br>
+            {{ form.data_usage(size=64, placeholder="e.g., Marketing, Billing") }}
+            <span class="description">How the data is used (e.g., Marketing, Billing)</span>
+        </p>
+        <p>
+            {{ form.data_sharing.label }}<br>
+            {{ form.data_sharing(size=64, placeholder="e.g., Third-party vendors, Advertisers") }}
+            <span class="description">With whom the data is shared (e.g., Third-party vendors, Advertisers)</span>
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <h2>Data Inventory</h2>
+    <ul>
+        {% for data in data_inventory %}
+            <li>{{ data.data_type }}: {{ data.data_usage }} (Shared with: {{ data.data_sharing }})
+                <span class="edit-delete-links">
+                    <a href="{{ url_for('main.edit', data_id=data.id) }}">Edit</a>
+                    <form action="{{ url_for('main.delete', data_id=data.id) }}" method="POST" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                </span>
+                <a href="{{ url_for('main.compliance', data_id=data.id) }}">View Compliance</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>You need to <a href="{{ url_for('main.login') }}">log in</a> to view the data inventory.</p>
+{% endif %}
+{% endblock %}
+

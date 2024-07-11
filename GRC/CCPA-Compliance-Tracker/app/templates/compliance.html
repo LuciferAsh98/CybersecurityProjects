@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Compliance Records{% endblock %}
+
+{% block content %}
+<h1>Compliance Records for {{ data.data_type }}</h1>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.compliance_type.label }}<br>
+        {{ form.compliance_type(size=32) }}
+    </p>
+    <p>
+        {{ form.status.label }}<br>
+        {{ form.status() }}
+    </p>
+    <p>
+        {{ form.details.label }}<br>
+        {{ form.details(rows=4, cols=40) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+
+<h2>Existing Compliance Records</h2>
+<ul>
+    {% for record in compliance_records %}
+        <li>{{ record.compliance_type }} - {{ record.status }} ({{ record.date_created.strftime('%Y-%m-%d') }}): {{ record.details }}
+            <a href="{{ url_for('main.edit_compliance', compliance_id=record.id) }}">Edit</a>
+            <form action="{{ url_for('main.delete_compliance', compliance_id=record.id) }}" method="POST" style="display:inline;">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+    {% endfor %}
+</ul>
+
+<a href="{{ url_for('main.home') }}">Back to Home</a>
+{% endblock %}
+

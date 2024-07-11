@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Compliance Record{% endblock %}
+
+{% block content %}
+<h1>Edit Compliance Record</h1>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.compliance_type.label }}<br>
+        {{ form.compliance_type(size=32) }}
+    </p>
+    <p>
+        {{ form.status.label }}<br>
+        {{ form.status() }}
+    </p>
+    <p>
+        {{ form.details.label }}<br>
+        {{ form.details(rows=4, cols=40) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+
+<a href="{{ url_for('main.compliance', data_id=compliance_record.data_id) }}">Back to Compliance Records</a>
+{% endblock %}
+

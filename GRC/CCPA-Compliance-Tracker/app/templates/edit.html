@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form p {
+            margin: 10px 0;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin: 4px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .description {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit Data Entry</h1>
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.data_type.label }}<br>
+            {{ form.data_type(size=32) }}
+            <span class="description">Type of data being collected (e.g., Name, Email, SSN)</span>
+        </p>
+        <p>
+            {{ form.data_usage.label }}<br>
+            {{ form.data_usage(size=64) }}
+            <span class="description">How the data is used (e.g., Marketing, Billing)</span>
+        </p>
+        <p>
+            {{ form.data_sharing.label }}<br>
+            {{ form.data_sharing(size=64) }}
+            <span class="description">With whom the data is shared (e.g., Third-party vendors, Advertisers)</span>
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <a href="{{ url_for('main.home') }}">Back to Home</a>
+</body>
+</html>
+
