@@ -1,6 +1,6 @@
 # 🔐 Cybersecurity Projects
 
-Welcome to my Cybersecurity Projects repository! As a passionate cybersecurity enthusiast, I have created a collection of projects that showcase my skills in red team operations, blue team defenses, and incident response. These projects aim to benefit the community and demonstrate practical applications of various cybersecurity concepts.
+Welcome to my Cybersecurity Projects repository! As a passionate cybersecurity enthusiast, I have created a collection of projects that showcase my skills in red team operations, blue team defenses, incident response, and governance, risk, and compliance (GRC). These projects aim to benefit the community and demonstrate practical applications of various cybersecurity concepts.
 
 ## 📁 Directory Structure
 
@@ -31,6 +31,10 @@ Welcome to my Cybersecurity Projects repository! As a passionate cybersecurity e
 - **📊 SIEM**: Projects involving the integration and use of Security Information and Event Management (SIEM) systems to monitor and analyze security events in real-time.
   - **SIEM Dashboards**: Custom dashboards for visualizing security data.
   - **Log Correlation Rules**: Rules for correlating logs and detecting security incidents.
+
+### 🛡️ GRC (Governance, Risk, and Compliance)
+- **📝 CCPA Compliance Tracker**: A tool designed to help organizations track their compliance status with the California Consumer Privacy Act (CCPA).
+- **🌍 Data Law Repository**: An information repository for data laws around the world, helping organizations understand global data compliance requirements.
 
 ### 🛠️ Tools
 - **🤖 AutomationScripts**: Scripts designed to automate various security tasks, improving efficiency and effectiveness in cybersecurity operations.
