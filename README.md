@@ -32,9 +32,11 @@ Welcome to my Cybersecurity Projects repository! As a passionate cybersecurity e
   - **SIEM Dashboards**: Custom dashboards for visualizing security data.
   - **Log Correlation Rules**: Rules for correlating logs and detecting security incidents.
 
-### 🛡️ GRC (Governance, Risk, and Compliance)
-- **📝 CCPA Compliance Tracker**: A tool designed to help organizations track their compliance status with the California Consumer Privacy Act (CCPA).
-- **🌍 Data Law Repository**: An information repository for data laws around the world, helping organizations understand global data compliance requirements.
+### 🛡️ Governance, Risk, and Compliance (GRC)
+- **🌍 Data Law Repository**: Comprehensive information on data privacy laws from various regions.
+  - [Data Laws](./GRC/Data%20Laws/)
+- **🛠️ Tools**: Various tools related to GRC.
+  - [CCPA Compliance Tracker](./GRC/Tools/CCPA-Compliance-Tracker)
 
 ### 🛠️ Tools
 - **🤖 AutomationScripts**: Scripts designed to automate various security tasks, improving efficiency and effectiveness in cybersecurity operations.
