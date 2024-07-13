@@ -24,8 +24,15 @@ This repository includes comprehensive information on data privacy laws from var
 - **Oceania**
   - **Australia**: Privacy Act
 
-### 📝 CCPA Compliance Tracker
-The [CCPA Compliance Tracker](./ccpa-compliance-tracker) is a tool designed to help organizations track their compliance status with the California Consumer Privacy Act (CCPA).
+### 🛠️ Tools
+This repository also includes various tools related to GRC:
+
+- **CCPA Compliance Tracker**
+  - The [CCPA Compliance Tracker](./Tools/CCPA-Compliance-Tracker) is a tool designed to help organizations track their compliance status with the California Consumer Privacy Act (CCPA).
+
+## How to Use 🚀
+Navigate to the relevant directory for the region or country you are interested in, and open the corresponding markdown file to view detailed information about the data law. For tools, navigate to the `Tools` directory.
+
 
 ## Data Privacy Laws and Standards
 
