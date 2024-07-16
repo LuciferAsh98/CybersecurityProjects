@@ -11,20 +11,10 @@ This project aims to implement Data Loss Prevention (DLP) tools to monitor and p
 
 ## Technologies 💻
 - Python 🐍
-- OpenDLP 🌐
-- Apache Nifi 🔄
-- ELK Stack 📊
+- Simulated Email Notification 📧
 
 ## Getting Started 🚀
 ### Prerequisites
 - Python 3.x
 - Virtual Environment
-- OpenDLP setup
-- Apache Nifi setup
-- ELK Stack setup
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/GRC-Tools.git
-   cd GRC-Tools/DLP-Tools

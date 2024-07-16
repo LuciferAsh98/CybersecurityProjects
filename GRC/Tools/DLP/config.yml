@@ -1,0 +1,24 @@
+# Configuration file for DLP Tool
+sensitive_data_types:
+  - credit_card_numbers
+  - social_security_numbers
+  - personal_identifiable_information
+
+monitoring:
+  endpoints:
+    - "endpoint1"
+    - "endpoint2"
+  networks:
+    - "network1"
+    - "network2"
+
+policy:
+  enforce_policies: true
+  log_violations: true
+
+incident_response:
+  notify_on_breach: true
+  notification_recipients:
+    - "admin@example.com"
+    - "security@example.com"
+
