@@ -38,8 +38,10 @@ To use PhishGuard, simply run the `phishguard.py` script:
 
 ```bash
 python3 src/phishguard.py
+```
 
 ## ✅ Example-Usage
+```
 PhishGuard v1.0 - Your personal phishing protection tool.
 
 🔍 Enter a URL to check (or type 'q' to quit): youtube.com/
@@ -48,6 +50,7 @@ Would you like to add 'http://' or 'https://' to the URL? (type 'http' or 'https
 Checking domain: youtube.com
 SSL Certificate SANs include the domain. The certificate is valid.
 ✅ The URL is safe.
+```
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
