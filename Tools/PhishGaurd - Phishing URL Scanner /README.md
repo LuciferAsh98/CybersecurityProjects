@@ -37,4 +37,4 @@ To install and run PhishGuard, follow these steps:
 To use PhishGuard, simply run the `phishguard.py` script:
 
 ```bash
-python3 phishguard.py
+python3 src/phishguard.py
