@@ -17,8 +17,8 @@ To install and run PhishGuard, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/PhishGuard.git
-    cd PhishGuard
+    git clone https://github.com/LuciferAsh98/CybersecurityProjects.git
+    cd CybersecurityProjects/Tools/PhishGuard - Phishing URL Scanner
     ```
 
 2. **Set up a virtual environment (optional but recommended)**:
