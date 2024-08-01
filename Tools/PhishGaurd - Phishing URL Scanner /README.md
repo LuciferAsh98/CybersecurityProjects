@@ -15,19 +15,20 @@ PhishGuard is a Python-based tool designed to help detect potential phishing URL
 
 The tool is organized in the following way:
 
-- **`src/`**: The main directory containing the Python scripts and data.
-  - **`phishguard.py`**: The main script to run the phishing URL scanner.
-  - **`phishing_check.py`**: Contains the core logic for checking if a URL is potentially phishing.
-  - **`utils.py`**: Utility functions to support the main scripts.
-  - **`merge_domain_lists.py`**: Script to merge and process domain lists.
-  - **`requirements.txt`**: Lists the Python packages required to run PhishGuard.
-  - **`data/`**: Directory containing the domain lists used for checking URLs.
-    - **`phishing_domains.txt`**: A list of known phishing domains.
-    - **`compromised_domains_full.txt`**: A more extensive list of compromised domains.
-    - **`compromised_domains_live.txt`**: Live list of compromised domains.
-    - **`consolidated_phishing_domains.txt`**: A consolidated list of phishing domains used by the tool.
-    - **`majestic_million.csv`**: A CSV file from Majestic Million containing top-ranked domains used for whitelist comparison.
-    - **`top-1m.csv`**: A CSV file containing the top 1 million domains from the Tranco list.
+- **[`src/`](https://github.com/LuciferAsh98/CybersecurityProjects/tree/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/)**: The main directory containing the Python scripts and data.
+  - **[`phishguard.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/phishguard.py)**: The main script to run the phishing URL scanner.
+  - **[`phishing_check.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/phishing_check.py)**: Contains the core logic for checking if a URL is potentially phishing.
+  - **[`utils.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/utils.py)**: Utility functions to support the main scripts.
+  - **[`merge_domain_lists.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/merge_domain_lists.py)**: Script to merge and process domain lists.
+  - **[`requirements.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/requirements.txt)**: Lists the Python packages required to run PhishGuard.
+  - **[`data/`](https://github.com/LuciferAsh98/CybersecurityProjects/tree/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/)**: Directory containing the domain lists used for checking URLs.
+    - **[`phishing_domains.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/phishing_domains.txt)**: A list of known phishing domains.
+    - **[`compromised_domains_full.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/compromised_domains_full.txt)**: A more extensive list of compromised domains.
+    - **[`compromised_domains_live.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/compromised_domains_live.txt)**: Live list of compromised domains.
+    - **[`consolidated_phishing_domains.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/consolidated_phishing_domains.txt)**: A consolidated list of phishing domains used by the tool.
+    - **[`majestic_million.csv`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/majestic_million.csv)**: A CSV file from Majestic Million containing top-ranked domains used for whitelist comparison.
+    - **[`top-1m.csv`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/top-1m.csv)**: A CSV file containing the top 1 million domains from the Tranco list.
+
 
 ## 🛠️ Installation
 
