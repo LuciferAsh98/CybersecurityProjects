@@ -71,7 +71,7 @@ SSL Certificate SANs include the domain. The certificate is valid.
 ✅ The URL is safe.
 ```
 
-📜 License
+
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/LICENSE.txt) file for details.
