@@ -1,77 +1,100 @@
-# 🛡️ PhishGuard v1.0
+# Configure Azure provider
+provider "azurerm" {
+  features {}
+}
 
-PhishGuard is a Python-based tool designed to help detect potential phishing URLs by analyzing various factors such as SSL certificates, domain similarity, and more. This tool aims to provide a comprehensive check against phishing attacks, making it easier for users to verify the legitimacy of a URL.
+# Create a resource group
+resource "azurerm_resource_group" "example" {
+  name     = var.resource_group_name
+  location = var.location
+}
 
-## 🎯 Features
+# Create a storage account
+resource "azurerm_storage_account" "example" {
+  name                     = "examplestorageacct"
+  resource_group_name      = azurerm_resource_group.example.name
+  location                 = azurerm_resource_group.example.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+  enable_https_traffic_only = true
+  allow_blob_public_access = false
+  tags = {
+    environment = "example"
+    purpose     = "compliance"
+  }
+}
 
-- **🔒 SSL Certificate Validation**: Checks if the SSL certificate is valid and matches the domain.
-- **🔍 Domain Similarity Check**: Compares the URL's domain with known trusted domains using Levenshtein distance.
-- **⚠️ Phishing Domain Detection**: Compares the URL against a list of known phishing domains.
-- **⏳ Domain Age Check**: Checks the age of the domain to identify newly registered domains, which are often used in phishing attacks.
-- **🔗 Suspicious Pattern Detection**: Analyzes the URL for uncommon TLDs and suspicious patterns.
-- **🤖 Automatic Scheme Handling**: If a URL is missing `http://` or `https://`, the tool will prompt the user to add it or test with both.
+# Define a custom policy for enforcing encryption
+resource "azurerm_policy_definition" "enforce_storage_encryption" {
+  name         = "enforce-storage-encryption"
+  policy_type  = "Custom"
+  mode         = "All"
+  display_name = "Enforce Encryption for Storage Accounts"
+  description  = "This policy ensures all storage accounts are encrypted."
 
-## 📂 Folder Structure and Files
+  policy_rule = <<POLICY
+{
+  "if": {
+    "allOf": [
+      {
+        "field": "type",
+        "equals": "Microsoft.Storage/storageAccounts"
+      },
+      {
+        "field": "Microsoft.Storage/storageAccounts/enableBlobEncryption",
+        "equals": false
+      }
+    ]
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
+POLICY
+}
 
-The tool is organized in the following way:
+# Assign the policy to the resource group
+resource "azurerm_policy_assignment" "assign_encryption_policy" {
+  name                 = "assign-encryption-policy"
+  policy_definition_id = azurerm_policy_definition.enforce_storage_encryption.id
+  scope                = azurerm_resource_group.example.id
+}
 
-- **[`src/`](https://github.com/LuciferAsh98/CybersecurityProjects/tree/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/)**: The main directory containing the Python scripts and data.
-  - **[`phishguard.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/phishguard.py)**: The main script to run the phishing URL scanner.
-  - **[`phishing_check.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/phishing_check.py)**: Contains the core logic for checking if a URL is potentially phishing.
-  - **[`utils.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/utils.py)**: Utility functions to support the main scripts.
-  - **[`merge_domain_lists.py`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/merge_domain_lists.py)**: Script to merge and process domain lists.
-  - **[`requirements.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/requirements.txt)**: Lists the Python packages required to run PhishGuard.
-  - **[`data/`](https://github.com/LuciferAsh98/CybersecurityProjects/tree/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/)**: Directory containing the domain lists used for checking URLs.
-    - **[`phishing_domains.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/phishing_domains.txt)**: A list of known phishing domains.
-    - **[`compromised_domains_full.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/compromised_domains_full.txt)**: A more extensive list of compromised domains.
-    - **[`compromised_domains_live.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/compromised_domains_live.txt)**: Live list of compromised domains.
-    - **[`consolidated_phishing_domains.txt`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/consolidated_phishing_domains.txt)**: A consolidated list of phishing domains used by the tool.
-    - **[`majestic_million.csv`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/majestic_million.csv)**: A CSV file from Majestic Million containing top-ranked domains used for whitelist comparison.
-    - **[`top-1m.csv`](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/src/data/top-1m.csv)**: A CSV file containing the top 1 million domains from the Tranco list.
+# Create a diagnostic setting for monitoring
+resource "azurerm_monitor_diagnostic_setting" "example" {
+  name               = "example-diagnostic-setting"
+  target_resource_id = azurerm_storage_account.example.id
 
+  log {
+    category = "StorageRead"
+    enabled  = true
 
-## 🛠️ Installation
+    retention_policy {
+      enabled = true
+      days    = 30
+    }
+  }
 
-To install and run PhishGuard, follow these steps:
+  metric {
+    category = "Transaction"
+    enabled  = true
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/LuciferAsh98/CybersecurityProjects.git
-    cd CybersecurityProjects/Tools/PhishGuard - Phishing URL Scanner
-    ```
+    retention_policy {
+      enabled = true
+      days    = 30
+    }
+  }
+}
 
-2. **Set up a virtual environment (optional but recommended)**:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+# Output the resource details
+output "resource_group_name" {
+  value = azurerm_resource_group.example.name
+}
 
-3. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+output "storage_account_name" {
+  value = azurerm_storage_account.example.name
+}
 
-## 🚀 Usage
-
-To use PhishGuard, simply run the `phishguard.py` script:
-
-```bash
-python3 src/phishguard.py
-```
-
-## ✅ Example-Usage
-```bash
-PhishGuard v1.0 - Your personal phishing protection tool.
-
-🔍 Enter a URL to check (or type 'q' to quit): youtube.com/
-The URL seems to be missing 'http://' or 'https://' .
-Would you like to add 'http://' or 'https://' to the URL? (type 'http' or 'https' or 'none' if it doesn’t have !!): https
-Checking domain: youtube.com
-SSL Certificate SANs include the domain. The certificate is valid.
-✅ The URL is safe.
-`````````
-
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/LuciferAsh98/CybersecurityProjects/blob/main/Tools/PhishGaurd%20-%20Phishing%20URL%20Scanner%20/LICENSE.txt) file for details.
+output "policy_assignment_name" {
+  value = azurerm_policy_assignment.assign_encryption_policy.name
+}
