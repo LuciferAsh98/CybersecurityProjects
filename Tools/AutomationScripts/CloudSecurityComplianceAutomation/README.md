@@ -22,7 +22,7 @@ Before running the Terraform scripts, ensure you have the following installed on
 ```bash
 git clone https://github.com/LuciferAsh98/CybersecurityProjects.git
 cd Tools/AutomationScripts/CloudSecurityComplianceAutomation
-
+```
 
 
 ### 2. Install Terraform & Azure CLI
