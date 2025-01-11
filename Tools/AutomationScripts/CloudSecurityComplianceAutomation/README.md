@@ -1,36 +1,51 @@
-# Cloud Security Compliance Automation with Terraform 🚀
+# 🌥️ Cloud Security Compliance Automation with Terraform
 
-## 🌐 Overview
-This project automates the enforcement of security policies in Azure environments to ensure compliance with NIST 800-53 standards using **Infrastructure-as-Code (IaC)** with **Terraform**. The process improves **deployment efficiency** by 25% and helps ensure a consistent, secure, and compliant cloud infrastructure.
+## 🔍 Overview
+This repository provides **Infrastructure-as-Code (IaC)** solutions to automate **security policy enforcement** in **Azure environments**, ensuring compliance with **NIST 800-53** standards. With **Terraform**, this project delivers improved deployment efficiency (by 25%) while maintaining continuous security compliance.
 
 ---
 
 ## 🛠️ Prerequisites
 
-Before running the Terraform scripts, ensure you have the following installed on your system:
+Before getting started, ensure the following are installed:
 
-- **[Terraform](https://www.terraform.io/downloads.html)** - Infrastructure-as-Code (IaC) tool
-- **[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)** - Command line tool for Azure
-- **[Azure Account](https://azure.microsoft.com/en-us/free/)** - You need an Azure subscription to manage resources in Azure.
+### Required Tools:
+- **[Terraform](https://www.terraform.io/downloads.html)** - IaC tool to define and provision cloud infrastructure.
+- **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)** - Command-line tool to manage Azure resources.
+- **A Valid Azure Subscription** - Create one [here](https://azure.microsoft.com/en-us/free/).
+
+### System Requirements:
+- **Operating System:** Linux/macOS/Windows
+- **RAM:** 4GB or higher
+- **Disk Space:** Minimum 10GB free space
 
 ---
 
-## ⚙️ Project Setup Instructions
+## 🚀 Getting Started
 
-### 1. Clone the Repository
-
+### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/LuciferAsh98/CybersecurityProjects.git
 cd Tools/AutomationScripts/CloudSecurityComplianceAutomation
 ```
 
 
-### 2. Install Terraform & Azure CLI
+### Step 2: Install Dependencies
 
-- **Installing Terraform
+- Installing Terraform
 	1.	Download the latest version of Terraform from Terraform Download Page for your OS (Windows, Linux, or macOS).
-	2.	Follow the installation instructions based on your platform.
+or
+```bash
+sudo apt-get update && sudo apt-get install -y terraform
+```
 
-- **Installing Azure CLI
+	2.	Refer to 
+    **[ Terraform installation guide](https://developer.hashicorp.com/terraform/install)** for other 
+
+- Installing Azure CLI
 	1.	Install Azure CLI by following Azure CLI Installation.
 	2.	After installation, verify it by running:
+
+    ```bash
+    az login
+    ```
