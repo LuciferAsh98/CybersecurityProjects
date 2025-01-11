@@ -22,3 +22,15 @@ Before running the Terraform scripts, ensure you have the following installed on
 ```bash
 git clone https://github.com/LuciferAsh98/CybersecurityProjects.git
 cd Tools/AutomationScripts/CloudSecurityComplianceAutomation
+
+
+
+### 2. Install Terraform & Azure CLI
+
+- **Installing Terraform
+	1.	Download the latest version of Terraform from Terraform Download Page for your OS (Windows, Linux, or macOS).
+	2.	Follow the installation instructions based on your platform.
+
+- **Installing Azure CLI
+	1.	Install Azure CLI by following Azure CLI Installation.
+	2.	After installation, verify it by running:
